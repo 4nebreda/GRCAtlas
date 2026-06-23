@@ -1,18 +1,22 @@
 # GRCAtlas
 
 <p align="center">
-  <img src="src/assets/logo.png" alt="GRCAtlas logo" width="600" />
+  <img src="https://raw.githubusercontent.com/4nebreda/GRCAtlas/main/src/assets/logo.png" alt="GRCAtlas logo" width="600" />
 </p>
 
-  **Grafo interactivo de Gobernanza, Riesgos y Cumplimiento para empresas españolas**
+<p align="center">
+  <strong>Grafo interactivo de Gobernanza, Riesgos y Cumplimiento para empresas españolas</strong>
+</p>
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-D4A84B?style=flat-square)](https://opensource.org/licenses/MIT)
-  [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=20232A)](https://reactjs.org/)
-  [![React Flow](https://img.shields.io/badge/React_Flow-FF0072?style=flat-square)](https://reactflow.dev/)
-  [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
-  [![PRs Welcome](https://img.shields.io/badge/PRs_Welcome-3FB950?style=flat-square)](http://makeapullrequest.com)
-  [![Español](https://img.shields.io/badge/Español-FF4444?style=flat-square)]()
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-D4A84B?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /></a>
+  <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=20232A" alt="React" /></a>
+  <a href="https://reactflow.dev/"><img src="https://img.shields.io/badge/React_Flow-FF0072?style=flat-square" alt="React Flow" /></a>
+  <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" /></a>
+  <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs_Welcome-3FB950?style=flat-square" alt="PRs Welcome" /></a>
+  <img src="https://img.shields.io/badge/Español-FF4444?style=flat-square" alt="Español" />
+</p>
 
 ---
 
@@ -33,6 +37,31 @@ El proyecto toma como punto de partida un esquema diseñado en Lucidchart y lo t
 - 🔧 **Extensible y modular** — añade nuevos marcos y relaciones de forma sencilla
 - 🇪🇸 **Enfoque en el ecosistema normativo español**
 
+## Instalación
+
+```bash
+git clone https://github.com/4nebreda/GRCAtlas.git
+cd GRCAtlas
+npm install
+npm run dev
+```
+
+La aplicación estará disponible en `http://localhost:5173`.
+
+## Artefactos principales
+
+| Archivo | Descripción |
+|---|---|
+| `src/graph.json` | Definición del grafo (nodos, aristas, notas) |
+| `utils/schema.csv` | Exportación original desde Lucidchart |
+| `utils/transform.py` | Script de transformación CSV → graph.json |
+
+Para regenerar `graph.json` desde el CSV:
+
+```bash
+python utils/transform.py
+```
+
 ## Tecnologías
 
 | Tecnología | Uso |
@@ -42,21 +71,6 @@ El proyecto toma como punto de partida un esquema diseñado en Lucidchart y lo t
 | [React Flow](https://reactflow.dev/) | Visualización de grafos y diagramas interactivos |
 | [Vite](https://vitejs.dev/) | Bundler y entorno de desarrollo |
 
-## Instalación
-
-\`\`\`bash
-git clone https://github.com/tu-usuario/GRCAtlas.git
-cd GRCAtlas
-npm install
-npm run dev
-\`\`\`
-
-## Artefactos pricipales
-
-- `src/graph.json`: Archivo de definicion del grafo
-- `utils/schema.csv`: Archivo extraido de la version original en Lucidchart
-- `utils/transform.py`: Script de transformacion CSV → graph.json
-
 ## Marcos normativos incluidos
 
 - **RGPD** — Reglamento General de Protección de Datos
@@ -65,15 +79,9 @@ npm run dev
 - **LMDSI** — Ley de Medidas para Fortalecer la Ciberseguridad Nacional
 - **LSSI-CE** — Ley de Servicios de la Sociedad de la Información y el Comercio Electrónico
 
-## Contribuir
+## Changelog
 
-Las contribuciones son bienvenidas. Para participar:
-
-1. Haz un **Fork** del proyecto
-2. Crea una rama para tu funcionalidad (\`git checkout -b feature/nuevo-marco\`)
-3. Haz commit de tus cambios (\`git commit -m 'Añade nuevo marco normativo'\`)
-4. Haz push a la rama (\`git push origin feature/nuevo-marco\`)
-5. Abre un **Pull Request**
+Consulta [CHANGELOG.md](CHANGELOG.md) para ver el historial de cambios.
 
 ## Licencia
 
