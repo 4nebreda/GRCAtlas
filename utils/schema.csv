@@ -1,0 +1,649 @@
+id,Nombre,Biblioteca de figuras,ID de página,Contenido por,Grupo,Origen de línea,Destino de la línea,Flecha de origen,Flecha de destino,Estado,Área de texto 1,Comentarios,Notas,ID de figura
+1,Documento,,,,,,,,,,Bombo,,,6d0c7aae-d13e-4d6a-af94-7b813650a60c
+3,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Gestion de la seguridad de la informacion,,,6igV6HnUI7uC
+4,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Estandares,,,6igVPV9eKNMU
+5,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Gestion de ciberincidentes,,,6igV2on-Gs9d
+6,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Planes de continuidad,,,6igVAXsCbZ0i
+7,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"Legislacion 
+aplicable ",,,6igVovnnvms3
+8,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"ISO 27001
+(certificable)",,,SmgVBWOiKGES
+9,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"ISO 27002
+(buenas practicas)",,,2mgVK-EMIlfg
+10,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,ISO 27000,,,oqgV9WjryX.E
+11,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,ISO 9001 (calidad),,,orgVILTF-fF2
+12,Bloque,Estándar,2,,,,,,,,"Amenazas
+ataque
+ambiental
+error
+fallo en sistemas
+Cada vez mas dificil de gestionar",,,wxgVC~F_4GPT
+13,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Seguridad de la informacion,,,QxgVjGvOzZpo
+14,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,SGSI,,,ezgVZL6X0eLB
+15,Bloque,Estándar,2,,,,,,,,"Def: Conjunto de politicas y procedimientos para recursos y actividades.
+Añade ISO 27000: 
+parte del sistema de gestion general
+enfoque de riesgo
+
+Obj: Proteger activos",,,sAgV9uBeUbMt
+16,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Framework,,,yBgVYmAWWdKC
+17,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"Gobernanza, Riesgo, Cumplimiento",,,CxrVmPBfjzEG
+18,Bloque,Estándar,2,,,,,,,,"Idea: alinear negocio, seguridad y normativa
+G: alinear seguridad con objetivos negocio
+R: identificar, analizar, riesgos sobre los activos y tomar medidas
+C: cumplimiento de politicas internas y leyes externas",,,rzrVZXGVQc_s
+19,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,NIST Cybersecurity Framework ,,,jLsV2iOfH2lC
+20,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,ISO 17799,,,pVsVxv9xqDuN
+21,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"British Standard
+7799",,,TRsVGOi3vJZL
+22,Bloque,Estándar,2,,,,,,,,Se basa en mejores practicas de seguridad y implantacion de SGSI,,,MTsVyk2Y45C6
+23,Bloque,Estándar,2,,,,,,,,HLS: High Level Structure,,,Q6sVkw_zkoC3
+24,Bloque,Estándar,2,,,,,,,,"Estructura comun entre ISOs 
+Permite
+Integracion
+Reutilizacion de contenido
+Mismos apartados",,,s_sVmv~fqZuu
+25,Bloque,Estándar,2,,,,,,,,"Versiones (1-2-3):
+Reduccion de controles
+Inclusion de HLS
+Flexibilidad
+Enfoque basado en riesgo
+Introduccion de cicle de Deming",,,LdtVHhBS6uul
+26,Bloque,Estándar,2,,,,,,,,"Diferencia:
+Auditable vs Adaptable
+Certificable vs No certificable
+Gestion formal vs Buenas preacticas
+¿Como? vs ¿Que?",,,pttVnQC1ORvU
+27,Bloque,Estándar,2,,,,,,,,"27003 (implementacion SGSI)
+27004 (metricas de seguridad)
+27005 (gestion de riesgos)",,,rKtV0pSE.Git
+28,Bloque,Estándar,2,,,,,,,,"11 secciones:
+0-3 Introductorias
+4-10 obligatorias de implementar
+Bucle PDCA
+Plan : seccion 4-7
+alcance, roles, riesgos
+Do (Hacer): seccion 8
+Implantar, Implementar
+Check (Validar) : seccion 9
+medir eficacia, auditoria interna
+Act: seccion 10
+mejoras, correcciones",,,oXvV1Qg9QTJv
+29,Bloque,Estándar,2,,,,,,,,"Compromiso de la direccion
+Fechas: 1/2 a 2 años (depende tamaño)
+Equipo
+Responsable
+Sponsor - Directivo que apoye
+Responsable de sistemas",,,u-vVcmggE8m_
+30,Bloque,Estándar,2,,,,,,,,"93 controles:
+organizativos
+personas
+fisicos(activos tangibles)
+tecnologicos
+Anexos - para adaptarse de version en version",,,​-3vVRlAdma9g
+31,Bloque,Estándar,2,,,,,,,,"Internas
+Externa (certificacion) - 3 años
+Seguimiento - 1/2  años",,,_awV3whbtWlT
+32,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,AARR,,,thwVyWOUJCzU
+33,Bloque,Estándar,2,,,,,,,,"0.Introducción
+1. Alcance (Objeto y campo de aplicación) 
+2. Referencias normativas (Normas para consulta) 
+3. Términos y definiciones 
+4. Contexto de la organización 
+5. Liderazgo 
+6. Planificación  (Evaluacion de riesgos de seguradad de la informacion)
+7. Soporte (incluyendo Recursos) 
+8. Operación (Tratamiento de riesgos de seguridad)
+9. Evaluación del desempeño 
+10. Mejora
+
+Mayores diferencias entre las dos ISOs ",,,q.sV~6ME33EI
+34,Bloque,Estándar,2,,,,,,,,"Riesgo/ Beneficio
+Gestion riesgo = Analisis + Evaluacion + Tratamiento",,,cnwVXBonOoeR
+35,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"ISO 31000
+(gestion de riesgos en general)",,,MowV6JbZdEni
+36,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"MAGERIT
+3 libros",,,tpwVS8o.pRUP
+37,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"Octave, NIST, ISO 27005",,,UpwVZO1nOFCP
+38,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,AEPD,,,krwVq6gUsNi4
+39,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,INCIBE,,,oswVs9_NzZub
+40,Bloque,Estándar,2,,,,,,,,Requisitos imponen Controles protege de Amenaza explota Vulnerabilidad afetcta Activo provoca Impacto,,,EtwVxa.PgCED
+41,Bloque,Estándar,2,,,,,,,,"Definir Alcance
+Identificar Activos
+Identificar Amenazas
+Identificar Vulnerabilidad - Salvaguarda
+Evaluar Riesgo
+Tratar Riesgo",,,v_wVWYSGVRKb
+42,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"Activo
+nombren desc, responsable, tipo, ubicacion, critico",,,YbxVIszu23bH
+43,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"Amenazas
+tipo: 
+origen natural, 
+fallo de sistema, 
+error humano
+ataque",,,XdxVFvtjxLsa
+44,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"Evaluar riesgo
+impacto x probaibilidad
+Escala del 1 al 5",,,1exVFr490Ry~
+45,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"Tratar riesgo
+evitar
+reducir
+transferir - que otro lo gestione, un 3ero
+aceptar",,,4hxVacuetN4p
+46,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"SOA
+declaracion de aplicabilidad",,,8jxVDMJ1682-
+47,Bloque,Estándar,2,,,,,,,,"Medidas de seguridad aplicables
+Operando o no",,,JkxV5LKDJ8aL
+48,Bloque,Estándar,2,,,,,,,,"Se crea una tabla con: 
+
+Definir nivel de riesgo aceptable (1-9)
+ Activos criticos
+Identificar amenazas
+Probabilidad
+Impacto
+Riesgo = Impacto x Probabilidad",,,4pxV8-6.5igU
+49,Bloque,Estándar,2,,,,,,,,"Dependencias entre activos
+Dimensiones de activos : 
+CIA (Confidencialidad, Integridad, Disponibilidad)
+Autenticidad (es quien dice ser)
+Trazabilidad (quien hizo que)
+Tipos de riesgo: 
+Intrinseco del activo - sin medidas de seguridad
+Frequencia (probabilidad) y degradacion (impacto) ← generado por amenaza
+Residual: tras medidas de seguridad
+Potencial:  si no se toman medidas adecuadas
+Acumulado: total de la empresa. Suma de riesgo de los activos
+Se compara con el umbral definido
+Salvaguarda 
+Medida de seguridad 
+Puede tener diferences formas
+Se incorpora al activo",,,YyxVNY-zP2Qy
+50,Bloque,Estándar,2,,,,,,,,"MAR 1: Caracterizacion de activos
+Valor del activo: 
+Propio / Acumulado (otros activos se apoyan en el)
+Cuantitativa/ Cualitativo
+un numero para C I A Autenticacion
+MAR 2: Caracterizacion de amenazas
+MAR 3: Caracterizacion de salvaguardas
+MAR 4: Estimacion de riesgo",,,x1xV_.3tWJRI
+51,Bloque,Estándar,2,,,,,,,,"identificar y valorar activo
+identificar amenzas
+riesgo intrinseco de las amenazas
+seleccion de salvaguardas
+riesgo residual",,,GGyVWLIdIRM6
+52,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Libro 1: metodo,,,AZxVSUDmSrkH
+53,Bloque,Estándar,2,,,,,,,,"tipo: preventivo (antes), detectivo (durante), correctivo (despues)
+dimensiones: CIA
+concepto de ciber: mapeable con NIST
+capacidades operativas
+dominio de seguridad",,,kPyV23tBdV7~
+54,Imagen de usuario,Imágenes de usuario,2,,,,,,,,,,,VQyVFNDbJoc_
+55,Bloque,Estándar,2,,,,,,,,"Estrategias
+Por donde empezar
+como ejecutar un proyecto
+Personas
+Formacion
+Procesos 
+Mejorar sistemas
+Tecnologia",,,ACgVjIQ22f7O
+56,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Politica: nuevo concepto,,,ISyVfwpBYVpI
+57,Bloque,Estándar,2,,,,,,,,"Politica de seguridad: alto nivel
+Politica por topicos: detallado
+Reglas: instrucciones",,,QTyVDy-PrsH8
+58,Bloque,Estándar,2,,,,,,,,"Evaluar, garantizar la seguridad de informacion en sector aleman automotriz. Evalua el SGSI.
+Tisax es evaluacion no auditoria, pone notas.",,,pXyVmuF64p8e
+59,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,ENX: Plataforma de intercambio de info de la supply chain,,,bZyVRzU5gG8p
+60,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,TISAX,,,9WyV75b1Bdvo
+61,Bloque,Estándar,2,,,,,,,,"Niveles de evaluacion
+1: autoevaluacion
+2: evaluacion remota
+3: Evaluacion in-situ (3rd party comes to business)
+Niveles de madurez
+define must / should",,,64yV1frYkslB
+62,Bloque,Estándar,2,,,,,,,,"fabricante impone certificarse en TISAX (aleman)
+Autoevaluacion
+Evaluacion → Corrective plan (si es necesario)
+Follow up",,,I8yVkeG0xFti
+63,Imagen de usuario,Imágenes de usuario,2,,,,,,,,,,,kTJV1WcG2GE2
+64,Bloque,Estándar,2,,,,,,,,"¿Qué hay que proteger?
+Confidencialidad
+Integridad
+Disponibilidad",,,W6JVJ4OBuBVs
+65,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"IEC 62443
+IACS Industrial Automation and Control Systems",,,p3MV8MqmuMUs
+66,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"ENS
+(ley/ certificacion)",,,NILVMfSff2hT
+67,Bloque,Estándar,2,,,,,,,,"Def: Establece principios, requisitos y medidas de seguridad.
+Objetivo:
+Crear condiciones de seguridad
+Promover gestion continuada de la seguridad
+Mejor resiliencia
+Estructura:7 caps -- 1 Disposicion transitoria -- 3 disposiciones adicionales -- 4 anexos",,,fJLVF5qxly_i
+68,Bloque,Estándar,2,,,,,,,,"Confidencialidad
+Integridad
+Disponibilidad
+Autenticidad
+Trazabilidad
+Conservacion
+",,,a1LVUwK~EEAw
+69,Bloque,Estándar,2,,,,,,,,"Seguridad tiene que estar en todo momento y en todas las áreas 
+Gestion basada en riesgos
+Prevencion, deteccion, respuesta y conservacion
+Defensa en profundidad
+Vigilancia continua
+Diferenciacion de responsabilidad",,,u4LVHJxLZcyI
+70,Bloque,Estándar,2,,,,,,,,"Responsable de la informacion:Establece requisitos de seguridad de informacion
+Responsablde del servicio: Establece requisitos de seguridad en servicios
+Responsable de seguridad: Mantener seguridad
+Responsable del sistema: Verifica sistema de informacion",,,2bMVoLZPgJ2o
+71,Bloque,Estándar,2,,,,,,,,"Coordina la seguridad a nivel empresa
+Formado: Responsable de Seguridad y representates de las áreas
+Toma decisiones basadas en información y opiniones técnicas",,,NZMVB3QjpgOr
+72,Bloque,Estándar,2,,,,,,,,"Familia → 62443-1, 62443-2,...
+General (conceptos)
+Procedimientos (como hacer?)
+AARR
+Sistema (lineas de fabricacion, redes)
+Zonas y conductos
+ Niveles de seguridad 
+Componentes (PLC, HMI...)
+Que hacer , como hacer (Requisitos)
+Testear en todas las fases del ciclo",,,oBNV3II3moRV
+73,Bloque,Estándar,2,,,,,,,,"Assesment
+Implementation
+Mantenance",,,1GNV~y6WZx1a
+74,Bloque,Estándar,2,,,,,,,,"75 en total:
+Marco organizativo: Organizacion global (4)
+Marco operacional: Operacion del sistema (31)
+Medidas de protección: Activos concretos (40)",,,0RNV.2NXLUj6
+75,Bloque,Estándar,2,,,,,,,,"Dar respuesta rapida y eficaz ante incidentes --> recuperar actividad normal
+Reducir toma de decisiones",,,8WNVA8kcDIHh
+76,Bloque,Estándar,2,,,,,,,,"Mantener nivel de servicio
+Definir periodo de recuperacion
+Analisis y mejora",,,uYNVSBlUHqOQ
+77,Bloque,Estándar,2,,,,,,,,"Conceptos importantes:
+
+Zonas y conductos: Separacion de red en zonas con mismo nivel de seguridad y conexiones entre estas
+
+Niveles de seguridad (SL) (1 - 4): Cuan resistente es a ataques
+SLT (objetivo): Cuan lejos estamos del nivel de seguridad por zona.
+	SLT = Riesgo sin mitigar / riesgo tolerable",,,I5NVgDxj03Ej
+78,Imagen de usuario,Imágenes de usuario,2,,,,,,,,,,,cbOVkDQ3QK5L
+79,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Plan de continuidad de negocio (BCP),,,OhOVq3mZuNUe
+80,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Plan de continuidad de IT,,,ciOV4ErWZ58l
+81,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Plan de recup frente a desatres,,,XiOVDzQsLOhw
+82,Bloque,Estándar,2,,,,,,,,"confianza
+integridad de personas
+relaciones cliente/proveedor
+no parar la produccion
+medioambiente",,,hsOVHQSjdJmn
+83,Bloque,Estándar,2,,,,,,,,"0. Alcance: que tomamos en cuenta
+Analisis Organizacion
+Servicios criticos y sus activos
+Riesgos
+Impacto (BIA, RPO, RTO)
+Estrategias: ¿Nuestras capacidades responden a las necesidades?
+Repondemos si se materializa la amenaza
+ Definimios herramientas que tenemos y las que hay que anadir para cumplir BIA(RPO,RTO)
+ Respuesta a contingencia (situacion adversa)
+Implementar el plan
+medidas a tomar dependiendo de la criticidad de los servicios
+Artefacto principal: Plan de crisis
+ Probar y revisar plan
+¿ Se cumple BIA?
+Actualizado (se define cada cuanto) y no obsoleto
+contiene: Plan de mantenimiento y plan de pruebas
+Comunicar
+Formar al personal
+",,,xwOV3OHI1p7.
+84,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,ISO 27002 lo requiere,,,NzOV.Ief~Lhr
+85,Bloque,Estándar,2,,,,,,,,"servicio critico: si falla no se puede producir
+ sus activos: DB, servidor, internet, cortafuegos....
+RPO: Datos perdidos
+RTO: tiempo perdido",,,DEOV7n._yL-C
+86,Bloque,Estándar,2,,,,,,,,"herramientas posibles: 
+backup
+hardware: onsite, offsite
+personal: no depender de una persona, accesos remotos
+centros de respaldo 
+cold, warm, hot : infraestructura externa preparada para reemplazar servicios. Mas caliente mas rapido el despliegue y mas preparado esta 
+proveedores con acuerdos de tiempos cortos",,,2UOVRB.0o0bC
+87,Bloque,Estándar,2,,,,,,,,"plan de crisis define:
+en que condiciones se acciona
+como se comunica
+personas clave
+contiene:
+Planes de recuperacion (varios, por sistema) y contienen:
+Procedimientos",,,aVOVB3QNxu6p
+88,Bloque,Estándar,2,,,,,,,,"plan de prueba:
+cada cuanto, quien, cuando?
+que pruebas exactamente
+ex: parada y arranque de servicios",,,V3OV7aVODGX3
+89,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,IRP: Plan de respuesta a ciberincidentes,,,vfPVrGk3M7ei
+90,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,ISO 27002 lo requiere,,,RgPVlErbCqks
+91,Bloque,Estándar,2,,,,,,,,"Replicabilidad
+Rapidez:
+deteccion
+respuesta
+Cumplimiento",,,7gPV0pKtH-fx
+92,Bloque,Estándar,2,,,,,,,,Ciberindicente: n incidentes afectando el funcionamiento y/o CIA,,,fiPVas6sqRhE
+93,Bloque,Estándar,2,,,,,,,,"Necesidad de enfoque especifico
+Falta de confianza en auditorias de 3ros (ISO27001)
+",,,fxKVWtkTLjqj
+94,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Ransomware,,,OvQVuvfC0iWb
+95,Bloque,Estándar,2,,,,,,,,"Cifrar archivos
+Moverse por la red y cifrar otros equipos
+pedir rescate
+
+tipo extra: RansomwareaaS",,,3xQVYck~AKDc
+96,Bloque,Estándar,2,,,,,,,,"Preparacion
+procedimientos y responsables
+plan de continuidad
+info par analisis (ex: inventario)
+backups
+playbook para incidentes
+trafico capturado
+EDR : endpoint detection response(analisis)
+EPP : endpoint protection platform(prevencion)
+DOCUMERNTACION EN PAPEL",,,FDQVoFFmZncP
+97,Imagen de usuario,Imágenes de usuario,2,,,,,,,,,,,VFQVgId45EM_
+98,Bloque,Estándar,2,,,,,,,,"Deteccion
+
+Estado de deteccion:
+todavia no hay cifrado
+hay cfrado
+Indicador:
+Interna: trabajdor, alertas
+Externa: Incibe (poco falso positivo) , cliente...",,,gSQVVmNLcmu6
+99,Bloque,Estándar,2,,,,,,,,"Analisis
+tipo
+peligrosidad (1-5)
+registrar
+notificar",,,hVQVrZB0DQGM
+100,Bloque,Estándar,2,,,,,,,,"Contencion
+cortar comunicacion de la red
+apagar equipos (se pierde RAM)
+segmentar red
+EDR en los equipos si no hay
+Revisar mejor comuncicaciones, logs, correo",,,tXQV8xJn.jRm
+101,Bloque,Estándar,2,,,,,,,,"Mitigacion
+eliminar el malware
+redisenar/segmentar la red
+vlan (capa 2)
+firewall (capa 3)
+actualizar equipos y credenciales",,,0ZQVBS1WOzYd
+102,Bloque,Estándar,2,,,,,,,,"Recuperacion (3 opciones)
+backup completo
+restaurar snapshot (shadow copy)
+herramienta de descifrado
+inventario de activos priorizados ayuda
+Importante: Guardar archivos cifrados por si se publica una solucion
+Cuidado: bakcup puede estar infectado
+Comunicacion
+Interna : empleados
+Externa: clientes, AEPD",,,0dRVGXN9Mvhc
+103,Bloque,Estándar,2,,,,,,,,"Post incidente
+preguntas
+Que?consecuencias?para que no vuelva a ocurrir?
+metricas: tiempos, afectados
+impacto: costes, interrupciones, sanciones
+mejoras: medidas, herramientas",,,VmRV~H9xQI1W
+104,Bloque,Estándar,2,,,,,,,,"Mismas fases que IRP
+define que hacer en cada una
+Uno por amenaza",,,iqRVeG4_srm.
+105,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Constitucion 1978 (Articulo 18),,,BuRV2.HzBloH
+106,Bloque,Estándar,2,,,,,,,,"derecho a la intimidad
+privacidad de comunicaciones",,,9uRVFdTGqDb7
+107,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Correo electronico corporativo,,,zwRVQO4yBZyX
+108,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Privacidad de comunicaciones,,,aCRVCYBscKjn
+109,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Derecho de intimidad,,,wCRV5HeCOMVf
+110,Bloque,Estándar,2,,,,,,,,"Nulidad de pruebas por falta de previo aviso
+Se debe informar de controles del puesto de trabajo",,,gIRVuS2RSH-U
+111,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"Ley de Enjuiciamiento Policial
+El troyano policial",,,yJRVoBi~y3R6
+112,Bloque,Estándar,2,,,,,,,,Juez puede introducir malware en el  acusado para reunir pruebas (delitos graves),,,ZJRVDZUDg.Ei
+113,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Ley General de Telecomunicaciones,,,oQRVHdFPAOCP
+114,Bloque,Estándar,2,,,,,,,,"interceptacion legal de comunicaciones en casos extremos: vidas en peligro
+mayores derechos a los usuarios",,,7QRVExz.fO6D
+115,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Ley de servicios de la sociedad de la informacion,,,WSRV8AZSPxpI
+116,Bloque,Estándar,2,,,,,,,,"servicios de internet: ecommerce, web
+consentimiento de spam
+uso de cookies
+ex: bloqueo de direcciones IP de La Liga. Necesita autorizacion judicial",,,PTRVOo7qt224
+117,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"NIS 2 (Network & Information Security)
+Directiva EU",,,hs3VUZGPGDac
+118,Bloque,Estándar,2,,,,,,,,"empresas:
+servicios esenciales
+proveedores de servicios",,,cu3V222dA.QW
+119,Bloque,Estándar,2,,,,,,,,"Ley por cada pais
+Espana va tarde",,,Mu3VdxbY3WSJ
+120,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,NIS 1,,,7v3VwCCA1FeG
+121,Bloque,Estándar,2,,,,,,,,"Mejoras:
+Mayor alcance:inclusion de sectores y nuevas tecnologias (IA)
+Entidades esenciales (ya habian)
+Entidades importante (se anaden)
+Toma en cuenta supply chain
+Notificacion de incidentes
+Supervision y sanciones
+Responsabilidad de la directiva
+Formacion
+Sanciones personales / Inhabilitacion temporal ",,,cw3VcrbpB~8X
+122,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"PCI-DSS
+Directiva EU",,,pF3V4OppDzw1
+123,Bloque,Estándar,2,,,,,,,,"entidades financieras
+empresas que guardan info de tarjetas",,,uH3VJtmUDPFl
+124,Bloque,Estándar,2,,,,,,,,"red segura
+proteger datos
+gestion de vulnerabilidades
+medidas de control de acceso",,,WK3VAdED1SDQ
+125,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,PSD2,,,bO3VDAiFa-Sc
+126,Bloque,Estándar,2,,,,,,,,"proteger datos
+seguridad de clientes
+unificar proveedores
+incluir fintechs",,,qR3VyQqrFlld
+127,Bloque,Estándar,2,,,,,,,,"SCA (Strong Auth)
+MFA
+verificaciones",,,8V3VrHyLlJFw
+128,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,DORA,,,lX3VWFhiLLhD
+129,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"elDAS
+ID unificado y seguro en EU",,,973VfkTgQiPM
+130,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,CRA,,,m93VAq2lDDfU
+131,Bloque,Estándar,2,,,,,,,,"Mejor seguridad en mercado - marcado CE
+gestion de vulnerabilidades
+transparencia con clientes -  proveedores
+reportes",,,R-3VoVurnPKs
+132,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"RGPD
+(reglamento/ ley EU)",,,3.3VMhhYN6ft
+133,Bloque,Estándar,2,,,,,,,,"artefacto principal: Evaluacion de impacto
+datos personales: 
+personales
+biometricos
+geneticos
+relativos a la salud
+se aplica a tratamientos de datos manuales y automatizados
+cada tratamiento tiene su responsable
+el Consentimiento se da con una accion clara negativa (no la no negacion)
+seudonimizacion: datos no atribuibles a una persona sin info adicional.
+ex: dos tablas: id, edad ; id, nombre. Solo la primera tabla es seudonimizada. 
+anonimizacion: una tabla: edad, trabajo. Irreversible, no se puede atribuir a una persona
+No aplica a personas fallecidas
+No se aplica a documentos personales o domesticos. ex: agenda
+Rol clave: DPO - Delegado de Proteccion de Datos
+conocimientos en derecho
+sin conflicto de intereses
+responsable de cumplimiento de proteccion de datos",,,Xc4V4i0V6iOF
+134,Imagen de usuario,Imágenes de usuario,2,,,,,,,,,,,Ur9V_2EFK_zu
+135,Conector,Figuras de diagrama de flujo/contenedores,2,,,,,,,,"Vasca
+Catalana",,,Zx_VsBaT8_ec
+136,Línea,,2,,,3,4,None,Arrow,,,,,6igVM8cza-yg
+137,Línea,,2,,,3,7,None,Arrow,,,,,6igV6Akswi3M
+138,Línea,,2,,,3,6,None,Arrow,,,,,6igVLM6eb54w
+139,Línea,,2,,,3,5,None,Arrow,,,,,6igVa1PTG2uI
+140,Línea,,2,,,4,8,None,Equilateral Arrow,,,,,0mgVNPVh-YYu
+141,Línea,,2,,,4,9,None,Equilateral Arrow,,,,,7mgVh_YsuLCX
+142,Línea,,2,,,10,9,None,Equilateral Arrow,,,,,AqgVDbyRvsXO
+143,Línea,,2,,,10,8,None,Equilateral Arrow,,,,,CqgV-O6G~XZ-
+144,Línea,,2,,,8,23,Equilateral Arrow,Equilateral Arrow,,,,,orgVnu8s3wXN
+145,Línea,,2,,,13,3,None,None,,objetivo,,,wvgVJBAyGq7A
+146,Línea,,2,,,13,12,None,Equilateral Arrow,,contexto,,,wxgV7gDCVXL3
+147,Línea,,2,,,3,14,None,Equilateral Arrow,,"artefacto 
+principal",,,AzgVELOBb1Hj
+148,Línea,,2,,,10,14,None,Equilateral Arrow,,exige,,,_zgV2uaBoBfq
+149,Línea,,2,,,14,15,None,Equilateral Arrow,,definicion,,,wAgVzL_449_s
+150,Línea,,2,,,14,26,Equilateral Arrow,Equilateral Arrow,,,,,CBgVI8VsQT3K
+151,Línea,,2,,,26,16,Equilateral Arrow,Equilateral Arrow,,,,,rttV6iO7J2oa
+152,Línea,,2,,,14,55,None,Equilateral Arrow,,incluye,,,DCgVe2DYczPK
+153,Línea,,2,,,10,21,None,Equilateral Arrow,,proviene de,,,TRsVdLM6b.Fn
+154,Línea,,2,,,3,17,None,Equilateral Arrow,,"enfoque
+integral",,,FxrV3Y-1CRo9
+155,Línea,,2,,,17,18,None,Equilateral Arrow,,Concepto,,,uzrVrDRnAZ0S
+156,Línea,,2,,,16,19,None,Equilateral Arrow,,ejemplo,,,jLsV0MRogbRd
+157,Línea,,2,,,21,22,None,None,,,,,QTsVQJViWYuH
+158,Línea,,2,,,21,20,None,Equilateral Arrow,,ISO/IEC la acojio como ,,,pVsVmk4shu8-
+159,Línea,,2,,,20,9,None,Equilateral Arrow,,da lugar a,,,TWsVmyk02wNO
+160,Línea,,2,,,23,11,Equilateral Arrow,Equilateral Arrow,,,,,86sVTbhJkM4p
+161,Línea,,2,,,23,24,None,Equilateral Arrow,,,,,s_sVWCcV.GeX
+162,Línea,,2,,,24,33,None,Equilateral Arrow,,apartados,,,q.sVGpuhHm1T
+163,Línea,,2,,,9,25,None,Equilateral Arrow,,versiones,,,7ftVjTNuaB.T
+164,Línea,,2,,,8,25,None,Equilateral Arrow,,versiones,,,​-ftVd-b~dZ7u
+165,Línea,,2,,,10,27,None,Equilateral Arrow,,"familia
+27000",,,BGtVge11siuO
+166,Línea,,2,,,8,28,None,Equilateral Arrow,,Estructura,,,qXvVFpvDRMp0
+167,Línea,,2,,,28,33,Arrow,Equilateral Arrow,,,,,d2vVDxjHyHek
+168,Línea,,2,,,9,30,None,Equilateral Arrow,,contiene,,,43vVOPefxIc1
+169,Línea,,2,,,8,29,None,Equilateral Arrow,,Arranque del proyecto,,,i-vVuruWu.q-
+170,Línea,,2,,,8,31,None,Equilateral Arrow,,Auditorias,,,abwVvAp7YzwZ
+171,Línea,,2,,,10,32,None,Equilateral Arrow,,exige,,,yhwVqrMLUhhT
+172,Línea,,2,,,32,34,None,Equilateral Arrow,,conceptos,,,.mwVZSb1vKxv
+173,Línea,,2,,,32,35,None,Equilateral Arrow,,,,,MowVOrRcBzCz
+174,Línea,,2,,,32,37,None,Equilateral Arrow,,Otras opciones,,,tpwVURac.Czs
+175,Línea,,2,,,36,37,Equilateral Arrow,None,,administraciones publicas Espana,,,UpwVRHFgj4jt
+176,Línea,,2,,,37,38,None,Equilateral Arrow,,"riesgos
+ con DATOS",,,krwVthq_w5fT
+177,Línea,,2,,,37,39,None,Equilateral Arrow,,Empresas pequenas,,,rswVLdwiORab
+178,Línea,,2,,,32,40,None,Equilateral Arrow,,Relacion de riesgo,,,GtwVmn5IC79G
+179,Línea,,2,,,32,41,None,Equilateral Arrow,,"Como hacer
+(segun 27000)",,,L~wVR7giG1k3
+180,Línea,,2,,,41,42,None,Equilateral Arrow,,,,,mbxVhSbAvHgN
+181,Línea,,2,,,41,43,None,Equilateral Arrow,,,,,WexVRx-Ziv7b
+182,Línea,,2,,,41,44,None,Equilateral Arrow,,,,,9fxVVgKJ2mEh
+183,Línea,,2,,,41,45,None,Equilateral Arrow,,,,,9hxVDK1KKKpW
+184,Línea,,2,,,34,45,Equilateral Arrow,Equilateral Arrow,,,,,0ixVzFZrj7Yj
+185,Línea,,2,,,45,46,None,Equilateral Arrow,,artefacto,,,ekxVmxQbEk9t
+186,Línea,,2,,,46,47,None,Equilateral Arrow,,,,,GkxVlp0H_n_a
+187,Línea,,2,,,39,48,None,None,,,,,9pxVKKwjVnE.
+188,Línea,,2,,,36,49,None,None,,analiza,,,WyxVvD1A3rxJ
+189,Línea,,2,,,36,52,None,None,,,,,AZxVHN~dPwh0
+190,Línea,,2,,,52,50,None,None,,,,,40xVaQBGAaLP
+191,Línea,,2,,,36,51,None,Equilateral Arrow,,ejemplo DB,,,LGyVhXxLbyVk
+192,Línea,,2,,,30,53,None,Equilateral Arrow,,Atributos de controles,,,kPyVEHlKbcdK
+193,Línea,,2,,,19,54,None,Equilateral Arrow,,,,,5QyV1Xkn~WFC
+194,Línea,,2,,,9,56,None,Equilateral Arrow,,introduce,,,SSyVp5YXAtI8
+195,Línea,,2,,,56,57,None,Equilateral Arrow,,,,,XTyVXC3-ZzTY
+196,Línea,,2,,,4,60,None,Equilateral Arrow,,,,,9WyVi-PH_8bN
+197,Línea,,2,,,60,58,None,Equilateral Arrow,,concepto,,,yXyV9zb.0PRv
+198,Línea,,2,,,60,59,None,Equilateral Arrow,,incluye,,,bZyV0Lj1COfq
+199,Línea,,2,,,58,59,None,Equilateral Arrow,,"resultado de
+audicion",,,.0yVM.aq8YIw
+200,Línea,,2,,,60,61,None,Equilateral Arrow,,contiene,,,c5yVASxbtVPp
+201,Línea,,2,,,61,62,None,Equilateral Arrow,,"pasos de
+evalucion",,,I8yVhb3kINa8
+202,Línea,,2,,,28,63,None,Equilateral Arrow,,,,,nUJV.670yIr8
+203,Línea,,2,,,32,64,None,Equilateral Arrow,,,,,76JVRyqxVmy9
+204,Línea,,2,,,60,93,None,None,,Origen,,,bxKVV69YIPfz
+205,Línea,,2,,,4,66,None,Equilateral Arrow,,sector publico y proveedores,,,NILVmHj~XzJ9
+206,Línea,,2,,,66,67,None,Equilateral Arrow,,,,,dJLVcX0bP7Wv
+207,Línea,,2,,,66,69,None,Equilateral Arrow,,Principios,,,zXMVlO15q0OI
+208,Línea,,2,,,66,70,None,Equilateral Arrow,,Roles,,,4XMVXLND2W7i
+209,Línea,,2,,,70,71,None,Equilateral Arrow,,Comité de seguridad,,,NZMVGkK-C48-
+210,Línea,,2,,,4,65,None,Equilateral Arrow,,"Seguridad
+para industria",,,t3MVJN30Wucv
+211,Línea,,2,,,65,10,Equilateral Arrow,Equilateral Arrow,,"integrado:
+una empresa industrial 
+puede tener ambos
+a diferentes niveles",,,WaPVKEmCGfJ3
+212,Línea,,2,,,66,68,None,Equilateral Arrow,,Garantias,,,G8MVfNW8lhCb
+213,Línea,,2,,,65,72,None,Equilateral Arrow,,Familias,,,hBNVIifo2RO_
+214,Línea,,2,,,65,73,None,Equilateral Arrow,,"ciclo de vida
+ciber (industria)",,,VGNVPZ.T0mfZ
+215,Línea,,2,,,67,74,None,Equilateral Arrow,,Medidas de seguridad,,,0RNVludjG6YG
+216,Línea,,2,,,6,75,None,Arrow,,Objetivo,,,OWNVNi9k.hrV
+217,Línea,,2,,,6,76,None,Equilateral Arrow,,Conseguimos,,,FYNVzur135Mi
+218,Línea,,2,,,72,77,None,Equilateral Arrow,,,,,I5NV9BvPB5gy
+219,Línea,,2,,,4,78,None,Equilateral Arrow,,"Plan Director de 
+seguridad: 
+Cualquier entidad",,,AaOVdOgE2Nbk
+220,Línea,,2,,,6,79,None,Equilateral Arrow,,Artefactos,,,OhOVVZRGoykk
+221,Línea,,2,,,79,80,None,Equilateral Arrow,,contiene,,,ciOV22hEx14H
+222,Línea,,2,,,80,81,None,Equilateral Arrow,,contiene,,,XiOV1wFxOCUH
+223,Línea,,2,,,79,82,None,Equilateral Arrow,,prioridades,,,nsOVW1L0nw-6
+224,Línea,,2,,,80,83,None,Equilateral Arrow,,"fases
+1-4 → principales",,,zwOVQQu1Og-s
+225,Línea,,2,,,80,84,Equilateral Arrow,None,,,,,NzOVh-gRa~3j
+226,Línea,,2,,,83,85,None,Equilateral Arrow,,Detalles,,,DEOVAyq86lGa
+227,Línea,,2,,,83,86,None,Equilateral Arrow,,Detalles,,,gWOVQsyWy_J8
+228,Línea,,2,,,83,87,None,Equilateral Arrow,,Detalles,,,nYOV3VJO4_bM
+229,Línea,,2,,,83,88,None,Equilateral Arrow,,detalles,,,53OV0WQ0b~c9
+230,Línea,,2,,,5,79,None,None,,,,,37OVWtfqv4v~
+231,Línea,,2,,,53,54,None,None,,,,,puQVWzufA8V7
+232,Línea,,2,,,5,89,None,Equilateral Arrow,,artefacto principal,,,vfPV7H31P6TJ
+233,Línea,,2,,,89,90,Equilateral Arrow,None,,,,,IgPVgiDRuGcX
+234,Línea,,2,,,89,91,None,Equilateral Arrow,,objetivos/razones,,,3gPVxDpu7CSt
+235,Línea,,2,,,5,92,None,Equilateral Arrow,,definicion,,,liPVFBgjL2cj
+236,Línea,,2,,,89,94,None,Equilateral Arrow,,Ejemplo,,,OvQVs05g7.5c
+237,Línea,,2,,,94,94,None,Equilateral Arrow,,"a traves de
+phising",,,sxQV7oBGGyRn
+238,Línea,,2,,,94,95,None,Equilateral Arrow,,fases y tipos,,,ExQVbT_IXgTY
+239,Línea,,2,,,89,97,None,Equilateral Arrow,,fases,,,9zQVg3qYu8vT
+240,Línea,,2,,,94,96,None,Equilateral Arrow,,fases de IRP,,,qDQVe3OCx350
+241,Línea,,2,,,96,98,None,Equilateral Arrow,,,,,lSQVnoXGaFMM
+242,Línea,,2,,,98,99,Equilateral Arrow,Equilateral Arrow,,,,,qXQVGdhPDRLd
+243,Línea,,2,,,98,100,None,Equilateral Arrow,,,,,AXQVlJ1Pqmk7
+244,Línea,,2,,,100,101,Equilateral Arrow,Equilateral Arrow,,,,,0ZQVr301-Dcb
+245,Línea,,2,,,101,102,Equilateral Arrow,Equilateral Arrow,,,,,0dRVmS_SzkAO
+246,Línea,,2,,,100,103,None,Equilateral Arrow,,,,,VmRVyq4BOaPh
+247,Línea,,2,,,96,104,None,Equilateral Arrow,,"playbook:
+artefacto interesante",,,iqRV7B1jrcyj
+248,Línea,,2,,,7,105,None,Equilateral Arrow,,,,,BuRVJC1lhP.d
+249,Línea,,2,,,105,106,None,Arrow,,menciona,,,.uRVCAhJbqr1
+250,Línea,,2,,,106,107,None,Equilateral Arrow,,ejemplo,,,CwRVegcUUfP_
+251,Línea,,2,,,107,109,None,Equilateral Arrow,,en buzon,,,uzRVg~Arubo3
+252,Línea,,2,,,107,108,None,Equilateral Arrow,,en transito,,,PCRVcd3yJE~_
+253,Línea,,2,,,109,109,None,Equilateral Arrow,,"se necesita razon 
+legitima para 
+violar el derecho",,,~CRVLrkK2cw5
+254,Línea,,2,,,108,108,None,Equilateral Arrow,,"autorizacion judicial
+para violar el derecho",,,NGRVQXGa9blZ
+255,Línea,,2,,,107,110,None,Equilateral Arrow,,,,,jIRVcIIG1V~X
+256,Línea,,2,,,7,111,None,None,,,,,yJRVttG4Wvea
+257,Línea,,2,,,111,112,None,None,,menciona,,,2JRV_wX-IsSE
+258,Línea,,2,,,7,113,None,None,,,,,GQRV1LUUPVFq
+259,Línea,,2,,,113,114,None,Equilateral Arrow,,regula,,,.QRVT-i5tkhV
+260,Línea,,2,,,7,115,None,None,,,,,WSRVALBqLuM7
+261,Línea,,2,,,115,116,None,Equilateral Arrow,,regula,,,STRVujKzM27I
+262,Línea,,2,,,7,117,None,Equilateral Arrow,,servicios esenciales,,,hs3VOpDJ7FZR
+263,Línea,,2,,,117,118,None,Equilateral Arrow,,para,,,fu3VZ.y8RqmW
+264,Línea,,2,,,117,119,None,Equilateral Arrow,,posteriormente,,,Qu3V~KWr3Zi7
+265,Línea,,2,,,121,120,Equilateral Arrow,Equilateral Arrow,,,,,7v3VJ2xMwGUv
+266,Línea,,2,,,121,117,Equilateral Arrow,Equilateral Arrow,,,,,ow3VjaZ.U3oO
+267,Línea,,2,,,7,122,None,Equilateral Arrow,,"tarjetas de
+credito",,,pF3VsQQEFqlQ
+268,Línea,,2,,,122,123,None,Equilateral Arrow,,para,,,yH3VNWekGbiU
+269,Línea,,2,,,122,124,None,Equilateral Arrow,,objetivos,,,ZK3VHawMOt8s
+270,Línea,,2,,,125,126,None,Equilateral Arrow,,objetivos,,,tR3V94QmeS8H
+271,Línea,,2,,,125,127,None,Equilateral Arrow,,incluye,,,​-V3V.fVc6-C9
+272,Línea,,2,,,7,125,None,Equilateral Arrow,,"bancos
+mercado de pagos",,,EY3VAbfrTD8Q
+273,Línea,,2,,,7,128,None,Equilateral Arrow,,"sector
+financiero",,,K23VHUuj5Bj0
+274,Línea,,2,,,117,128,None,None,,relacion,,,k73VJqbEdC8I
+275,Línea,,2,,,7,129,None,Equilateral Arrow,,,,,973V8bIAFDIR
+276,Línea,,2,,,7,130,None,Equilateral Arrow,,"seguridad en servicios
+que se venden en mercado",,,m93VatV39wAn
+277,Línea,,2,,,130,131,None,Equilateral Arrow,,objetivos,,,Q-3V.xK9_ATt
+278,Línea,,2,,,7,132,None,Equilateral Arrow,,"proteccion de 
+datos",,,t~3V5yqu3iYd
+279,Línea,,2,,,132,133,None,Equilateral Arrow,,conceptos,,,1c4V1zv5I.Et
+280,Línea,,2,,,29,28,None,Equilateral Arrow,,previo a,,,Kt8VB_ivP9th
+281,Línea,,2,,,48,134,None,Equilateral Arrow,,,,,1r9VRN.3~3cc
+282,Línea,,2,,,38,135,None,None,,secundarias,,,Zx_VHV8h4QJc

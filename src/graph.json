@@ -1,0 +1,662 @@
+{
+  "root": "3",
+  "nodes": [
+    {
+      "id": "3",
+      "label": "Gestion de la seguridad de la informacion",
+      "footnotes": []
+    },
+    {
+      "id": "4",
+      "label": "Estandares",
+      "footnotes": []
+    },
+    {
+      "id": "5",
+      "label": "Gestion de ciberincidentes",
+      "footnotes": [
+        "Ciberindicente: n incidentes afectando el funcionamiento y/o CIA"
+      ]
+    },
+    {
+      "id": "6",
+      "label": "Planes de continuidad",
+      "footnotes": [
+        "Dar respuesta rapida y eficaz ante incidentes --> recuperar actividad normal\nReducir toma de decisiones",
+        "Mantener nivel de servicio\nDefinir periodo de recuperacion\nAnalisis y mejora"
+      ]
+    },
+    {
+      "id": "7",
+      "label": "Legislacion \naplicable",
+      "footnotes": []
+    },
+    {
+      "id": "8",
+      "label": "ISO 27001\n(certificable)",
+      "footnotes": [
+        "HLS: High Level Structure",
+        "Versiones (1-2-3):\nReduccion de controles\nInclusion de HLS\nFlexibilidad\nEnfoque basado en riesgo\nIntroduccion de cicle de Deming",
+        "11 secciones:\n0-3 Introductorias\n4-10 obligatorias de implementar\nBucle PDCA\nPlan : seccion 4-7\nalcance, roles, riesgos\nDo (Hacer): seccion 8\nImplantar, Implementar\nCheck (Validar) : seccion 9\nmedir eficacia, auditoria interna\nAct: seccion 10\nmejoras, correcciones",
+        "Compromiso de la direccion\nFechas: 1/2 a 2 años (depende tamaño)\nEquipo\nResponsable\nSponsor - Directivo que apoye\nResponsable de sistemas",
+        "Internas\nExterna (certificacion) - 3 años\nSeguimiento - 1/2  años",
+        "Estructura comun entre ISOs \nPermite\nIntegracion\nReutilizacion de contenido\nMismos apartados",
+        "0.Introducción\n1. Alcance (Objeto y campo de aplicación) \n2. Referencias normativas (Normas para consulta) \n3. Términos y definiciones \n4. Contexto de la organización \n5. Liderazgo \n6. Planificación  (Evaluacion de riesgos de seguradad de la informacion)\n7. Soporte (incluyendo Recursos) \n8. Operación (Tratamiento de riesgos de seguridad)\n9. Evaluación del desempeño \n10. Mejora\n\nMayores diferencias entre las dos ISOs"
+      ]
+    },
+    {
+      "id": "9",
+      "label": "ISO 27002\n(buenas practicas)",
+      "footnotes": [
+        "93 controles:\norganizativos\npersonas\nfisicos(activos tangibles)\ntecnologicos\nAnexos - para adaptarse de version en version",
+        "tipo: preventivo (antes), detectivo (durante), correctivo (despues)\ndimensiones: CIA\nconcepto de ciber: mapeable con NIST\ncapacidades operativas\ndominio de seguridad"
+      ]
+    },
+    {
+      "id": "10",
+      "label": "ISO 27000",
+      "footnotes": [
+        "27003 (implementacion SGSI)\n27004 (metricas de seguridad)\n27005 (gestion de riesgos)"
+      ]
+    },
+    {
+      "id": "11",
+      "label": "ISO 9001 (calidad)",
+      "footnotes": []
+    },
+    {
+      "id": "13",
+      "label": "Seguridad de la informacion",
+      "footnotes": [
+        "Amenazas\nataque\nambiental\nerror\nfallo en sistemas\nCada vez mas dificil de gestionar"
+      ]
+    },
+    {
+      "id": "14",
+      "label": "SGSI",
+      "footnotes": [
+        "Def: Conjunto de politicas y procedimientos para recursos y actividades.\nAñade ISO 27000: \nparte del sistema de gestion general\nenfoque de riesgo\n\nObj: Proteger activos",
+        "Diferencia:\nAuditable vs Adaptable\nCertificable vs No certificable\nGestion formal vs Buenas preacticas\n¿Como? vs ¿Que?",
+        "Estrategias\nPor donde empezar\ncomo ejecutar un proyecto\nPersonas\nFormacion\nProcesos \nMejorar sistemas\nTecnologia"
+      ]
+    },
+    {
+      "id": "16",
+      "label": "Framework",
+      "footnotes": []
+    },
+    {
+      "id": "17",
+      "label": "Gobernanza, Riesgo, Cumplimiento",
+      "footnotes": [
+        "Idea: alinear negocio, seguridad y normativa\nG: alinear seguridad con objetivos negocio\nR: identificar, analizar, riesgos sobre los activos y tomar medidas\nC: cumplimiento de politicas internas y leyes externas"
+      ]
+    },
+    {
+      "id": "19",
+      "label": "NIST Cybersecurity Framework",
+      "footnotes": []
+    },
+    {
+      "id": "20",
+      "label": "ISO 17799",
+      "footnotes": []
+    },
+    {
+      "id": "21",
+      "label": "British Standard\n7799",
+      "footnotes": [
+        "Se basa en mejores practicas de seguridad y implantacion de SGSI"
+      ]
+    },
+    {
+      "id": "32",
+      "label": "AARR",
+      "footnotes": [
+        "Riesgo/ Beneficio\nGestion riesgo = Analisis + Evaluacion + Tratamiento",
+        "Requisitos imponen Controles protege de Amenaza explota Vulnerabilidad afetcta Activo provoca Impacto",
+        "Definir Alcance\nIdentificar Activos\nIdentificar Amenazas\nIdentificar Vulnerabilidad - Salvaguarda\nEvaluar Riesgo\nTratar Riesgo",
+        "¿Qué hay que proteger?\nConfidencialidad\nIntegridad\nDisponibilidad"
+      ]
+    },
+    {
+      "id": "35",
+      "label": "ISO 31000\n(gestion de riesgos en general)",
+      "footnotes": []
+    },
+    {
+      "id": "36",
+      "label": "MAGERIT\n3 libros",
+      "footnotes": [
+        "Dependencias entre activos\nDimensiones de activos : \nCIA (Confidencialidad, Integridad, Disponibilidad)\nAutenticidad (es quien dice ser)\nTrazabilidad (quien hizo que)\nTipos de riesgo: \nIntrinseco del activo - sin medidas de seguridad\nFrequencia (probabilidad) y degradacion (impacto) ← generado por amenaza\nResidual: tras medidas de seguridad\nPotencial:  si no se toman medidas adecuadas\nAcumulado: total de la empresa. Suma de riesgo de los activos\nSe compara con el umbral definido\nSalvaguarda \nMedida de seguridad \nPuede tener diferences formas\nSe incorpora al activo",
+        "identificar y valorar activo\nidentificar amenzas\nriesgo intrinseco de las amenazas\nseleccion de salvaguardas\nriesgo residual"
+      ]
+    },
+    {
+      "id": "37",
+      "label": "Octave, NIST, ISO 27005",
+      "footnotes": []
+    },
+    {
+      "id": "38",
+      "label": "AEPD",
+      "footnotes": []
+    },
+    {
+      "id": "39",
+      "label": "INCIBE",
+      "footnotes": [
+        "Se crea una tabla con: \n\nDefinir nivel de riesgo aceptable (1-9)\n Activos criticos\nIdentificar amenazas\nProbabilidad\nImpacto\nRiesgo = Impacto x Probabilidad"
+      ]
+    },
+    {
+      "id": "42",
+      "label": "Activo\nnombren desc, responsable, tipo, ubicacion, critico",
+      "footnotes": []
+    },
+    {
+      "id": "43",
+      "label": "Amenazas\ntipo: \norigen natural, \nfallo de sistema, \nerror humano\nataque",
+      "footnotes": []
+    },
+    {
+      "id": "44",
+      "label": "Evaluar riesgo\nimpacto x probaibilidad\nEscala del 1 al 5",
+      "footnotes": []
+    },
+    {
+      "id": "45",
+      "label": "Tratar riesgo\nevitar\nreducir\ntransferir - que otro lo gestione, un 3ero\naceptar",
+      "footnotes": []
+    },
+    {
+      "id": "46",
+      "label": "SOA\ndeclaracion de aplicabilidad",
+      "footnotes": [
+        "Medidas de seguridad aplicables\nOperando o no"
+      ]
+    },
+    {
+      "id": "52",
+      "label": "Libro 1: metodo",
+      "footnotes": [
+        "MAR 1: Caracterizacion de activos\nValor del activo: \nPropio / Acumulado (otros activos se apoyan en el)\nCuantitativa/ Cualitativo\nun numero para C I A Autenticacion\nMAR 2: Caracterizacion de amenazas\nMAR 3: Caracterizacion de salvaguardas\nMAR 4: Estimacion de riesgo"
+      ]
+    },
+    {
+      "id": "56",
+      "label": "Politica: nuevo concepto",
+      "footnotes": [
+        "Politica de seguridad: alto nivel\nPolitica por topicos: detallado\nReglas: instrucciones"
+      ]
+    },
+    {
+      "id": "59",
+      "label": "ENX: Plataforma de intercambio de info de la supply chain",
+      "footnotes": [
+        "Evaluar, garantizar la seguridad de informacion en sector aleman automotriz. Evalua el SGSI.\nTisax es evaluacion no auditoria, pone notas."
+      ]
+    },
+    {
+      "id": "60",
+      "label": "TISAX",
+      "footnotes": [
+        "Niveles de evaluacion\n1: autoevaluacion\n2: evaluacion remota\n3: Evaluacion in-situ (3rd party comes to business)\nNiveles de madurez\ndefine must / should",
+        "Necesidad de enfoque especifico\nFalta de confianza en auditorias de 3ros (ISO27001)",
+        "fabricante impone certificarse en TISAX (aleman)\nAutoevaluacion\nEvaluacion → Corrective plan (si es necesario)\nFollow up"
+      ]
+    },
+    {
+      "id": "65",
+      "label": "IEC 62443\nIACS Industrial Automation and Control Systems",
+      "footnotes": [
+        "Familia → 62443-1, 62443-2,...\nGeneral (conceptos)\nProcedimientos (como hacer?)\nAARR\nSistema (lineas de fabricacion, redes)\nZonas y conductos\n Niveles de seguridad \nComponentes (PLC, HMI...)\nQue hacer , como hacer (Requisitos)\nTestear en todas las fases del ciclo",
+        "Assesment\nImplementation\nMantenance",
+        "Conceptos importantes:\n\nZonas y conductos: Separacion de red en zonas con mismo nivel de seguridad y conexiones entre estas\n\nNiveles de seguridad (SL) (1 - 4): Cuan resistente es a ataques\nSLT (objetivo): Cuan lejos estamos del nivel de seguridad por zona.\n\tSLT = Riesgo sin mitigar / riesgo tolerable"
+      ]
+    },
+    {
+      "id": "66",
+      "label": "ENS\n(ley/ certificacion)",
+      "footnotes": [
+        "Def: Establece principios, requisitos y medidas de seguridad.\nObjetivo:\nCrear condiciones de seguridad\nPromover gestion continuada de la seguridad\nMejor resiliencia\nEstructura:7 caps -- 1 Disposicion transitoria -- 3 disposiciones adicionales -- 4 anexos",
+        "Seguridad tiene que estar en todo momento y en todas las áreas \nGestion basada en riesgos\nPrevencion, deteccion, respuesta y conservacion\nDefensa en profundidad\nVigilancia continua\nDiferenciacion de responsabilidad",
+        "Responsable de la informacion:Establece requisitos de seguridad de informacion\nResponsablde del servicio: Establece requisitos de seguridad en servicios\nResponsable de seguridad: Mantener seguridad\nResponsable del sistema: Verifica sistema de informacion",
+        "Confidencialidad\nIntegridad\nDisponibilidad\nAutenticidad\nTrazabilidad\nConservacion",
+        "75 en total:\nMarco organizativo: Organizacion global (4)\nMarco operacional: Operacion del sistema (31)\nMedidas de protección: Activos concretos (40)",
+        "Coordina la seguridad a nivel empresa\nFormado: Responsable de Seguridad y representates de las áreas\nToma decisiones basadas en información y opiniones técnicas"
+      ]
+    },
+    {
+      "id": "79",
+      "label": "Plan de continuidad de negocio (BCP)",
+      "footnotes": [
+        "confianza\nintegridad de personas\nrelaciones cliente/proveedor\nno parar la produccion\nmedioambiente"
+      ]
+    },
+    {
+      "id": "80",
+      "label": "Plan de continuidad de IT",
+      "footnotes": [
+        "0. Alcance: que tomamos en cuenta\nAnalisis Organizacion\nServicios criticos y sus activos\nRiesgos\nImpacto (BIA, RPO, RTO)\nEstrategias: ¿Nuestras capacidades responden a las necesidades?\nRepondemos si se materializa la amenaza\n Definimios herramientas que tenemos y las que hay que anadir para cumplir BIA(RPO,RTO)\n Respuesta a contingencia (situacion adversa)\nImplementar el plan\nmedidas a tomar dependiendo de la criticidad de los servicios\nArtefacto principal: Plan de crisis\n Probar y revisar plan\n¿ Se cumple BIA?\nActualizado (se define cada cuanto) y no obsoleto\ncontiene: Plan de mantenimiento y plan de pruebas\nComunicar\nFormar al personal",
+        "servicio critico: si falla no se puede producir\n sus activos: DB, servidor, internet, cortafuegos....\nRPO: Datos perdidos\nRTO: tiempo perdido",
+        "herramientas posibles: \nbackup\nhardware: onsite, offsite\npersonal: no depender de una persona, accesos remotos\ncentros de respaldo \ncold, warm, hot : infraestructura externa preparada para reemplazar servicios. Mas caliente mas rapido el despliegue y mas preparado esta \nproveedores con acuerdos de tiempos cortos",
+        "plan de crisis define:\nen que condiciones se acciona\ncomo se comunica\npersonas clave\ncontiene:\nPlanes de recuperacion (varios, por sistema) y contienen:\nProcedimientos",
+        "plan de prueba:\ncada cuanto, quien, cuando?\nque pruebas exactamente\nex: parada y arranque de servicios"
+      ]
+    },
+    {
+      "id": "81",
+      "label": "Plan de recup frente a desatres",
+      "footnotes": []
+    },
+    {
+      "id": "84",
+      "label": "ISO 27002 lo requiere",
+      "footnotes": []
+    },
+    {
+      "id": "89",
+      "label": "IRP: Plan de respuesta a ciberincidentes",
+      "footnotes": [
+        "Replicabilidad\nRapidez:\ndeteccion\nrespuesta\nCumplimiento"
+      ]
+    },
+    {
+      "id": "90",
+      "label": "ISO 27002 lo requiere",
+      "footnotes": []
+    },
+    {
+      "id": "94",
+      "label": "Ransomware",
+      "footnotes": [
+        "Cifrar archivos\nMoverse por la red y cifrar otros equipos\npedir rescate\n\ntipo extra: RansomwareaaS",
+        "Preparacion\nprocedimientos y responsables\nplan de continuidad\ninfo par analisis (ex: inventario)\nbackups\nplaybook para incidentes\ntrafico capturado\nEDR : endpoint detection response(analisis)\nEPP : endpoint protection platform(prevencion)\nDOCUMERNTACION EN PAPEL",
+        "Deteccion\n\nEstado de deteccion:\ntodavia no hay cifrado\nhay cfrado\nIndicador:\nInterna: trabajdor, alertas\nExterna: Incibe (poco falso positivo) , cliente...",
+        "Mismas fases que IRP\ndefine que hacer en cada una\nUno por amenaza",
+        "Analisis\ntipo\npeligrosidad (1-5)\nregistrar\nnotificar",
+        "Contencion\ncortar comunicacion de la red\napagar equipos (se pierde RAM)\nsegmentar red\nEDR en los equipos si no hay\nRevisar mejor comuncicaciones, logs, correo",
+        "Mitigacion\neliminar el malware\nredisenar/segmentar la red\nvlan (capa 2)\nfirewall (capa 3)\nactualizar equipos y credenciales",
+        "Post incidente\npreguntas\nQue?consecuencias?para que no vuelva a ocurrir?\nmetricas: tiempos, afectados\nimpacto: costes, interrupciones, sanciones\nmejoras: medidas, herramientas",
+        "Recuperacion (3 opciones)\nbackup completo\nrestaurar snapshot (shadow copy)\nherramienta de descifrado\ninventario de activos priorizados ayuda\nImportante: Guardar archivos cifrados por si se publica una solucion\nCuidado: bakcup puede estar infectado\nComunicacion\nInterna : empleados\nExterna: clientes, AEPD"
+      ]
+    },
+    {
+      "id": "105",
+      "label": "Constitucion 1978 (Articulo 18)",
+      "footnotes": [
+        "derecho a la intimidad\nprivacidad de comunicaciones"
+      ]
+    },
+    {
+      "id": "107",
+      "label": "Correo electronico corporativo",
+      "footnotes": [
+        "Nulidad de pruebas por falta de previo aviso\nSe debe informar de controles del puesto de trabajo"
+      ]
+    },
+    {
+      "id": "108",
+      "label": "Privacidad de comunicaciones",
+      "footnotes": []
+    },
+    {
+      "id": "109",
+      "label": "Derecho de intimidad",
+      "footnotes": []
+    },
+    {
+      "id": "111",
+      "label": "Ley de Enjuiciamiento Policial\nEl troyano policial",
+      "footnotes": [
+        "Juez puede introducir malware en el  acusado para reunir pruebas (delitos graves)"
+      ]
+    },
+    {
+      "id": "113",
+      "label": "Ley General de Telecomunicaciones",
+      "footnotes": [
+        "interceptacion legal de comunicaciones en casos extremos: vidas en peligro\nmayores derechos a los usuarios"
+      ]
+    },
+    {
+      "id": "115",
+      "label": "Ley de servicios de la sociedad de la informacion",
+      "footnotes": [
+        "servicios de internet: ecommerce, web\nconsentimiento de spam\nuso de cookies\nex: bloqueo de direcciones IP de La Liga. Necesita autorizacion judicial"
+      ]
+    },
+    {
+      "id": "117",
+      "label": "NIS 2 (Network & Information Security)\nDirectiva EU",
+      "footnotes": [
+        "empresas:\nservicios esenciales\nproveedores de servicios",
+        "Ley por cada pais\nEspana va tarde",
+        "Mejoras:\nMayor alcance:inclusion de sectores y nuevas tecnologias (IA)\nEntidades esenciales (ya habian)\nEntidades importante (se anaden)\nToma en cuenta supply chain\nNotificacion de incidentes\nSupervision y sanciones\nResponsabilidad de la directiva\nFormacion\nSanciones personales / Inhabilitacion temporal"
+      ]
+    },
+    {
+      "id": "120",
+      "label": "NIS 1",
+      "footnotes": []
+    },
+    {
+      "id": "122",
+      "label": "PCI-DSS\nDirectiva EU",
+      "footnotes": [
+        "entidades financieras\nempresas que guardan info de tarjetas",
+        "red segura\nproteger datos\ngestion de vulnerabilidades\nmedidas de control de acceso"
+      ]
+    },
+    {
+      "id": "125",
+      "label": "PSD2",
+      "footnotes": [
+        "proteger datos\nseguridad de clientes\nunificar proveedores\nincluir fintechs",
+        "SCA (Strong Auth)\nMFA\nverificaciones"
+      ]
+    },
+    {
+      "id": "128",
+      "label": "DORA",
+      "footnotes": []
+    },
+    {
+      "id": "129",
+      "label": "elDAS\nID unificado y seguro en EU",
+      "footnotes": []
+    },
+    {
+      "id": "130",
+      "label": "CRA",
+      "footnotes": [
+        "Mejor seguridad en mercado - marcado CE\ngestion de vulnerabilidades\ntransparencia con clientes -  proveedores\nreportes"
+      ]
+    },
+    {
+      "id": "132",
+      "label": "RGPD\n(reglamento/ ley EU)",
+      "footnotes": [
+        "artefacto principal: Evaluacion de impacto\ndatos personales: \npersonales\nbiometricos\ngeneticos\nrelativos a la salud\nse aplica a tratamientos de datos manuales y automatizados\ncada tratamiento tiene su responsable\nel Consentimiento se da con una accion clara negativa (no la no negacion)\nseudonimizacion: datos no atribuibles a una persona sin info adicional.\nex: dos tablas: id, edad ; id, nombre. Solo la primera tabla es seudonimizada. \nanonimizacion: una tabla: edad, trabajo. Irreversible, no se puede atribuir a una persona\nNo aplica a personas fallecidas\nNo se aplica a documentos personales o domesticos. ex: agenda\nRol clave: DPO - Delegado de Proteccion de Datos\nconocimientos en derecho\nsin conflicto de intereses\nresponsable de cumplimiento de proteccion de datos"
+      ]
+    },
+    {
+      "id": "135",
+      "label": "Vasca\nCatalana",
+      "footnotes": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "3",
+      "target": "4",
+      "label": ""
+    },
+    {
+      "source": "3",
+      "target": "7",
+      "label": ""
+    },
+    {
+      "source": "3",
+      "target": "6",
+      "label": ""
+    },
+    {
+      "source": "3",
+      "target": "5",
+      "label": ""
+    },
+    {
+      "source": "4",
+      "target": "10",
+      "label": ""
+    },
+    {
+      "source": "10",
+      "target": "9",
+      "label": ""
+    },
+    {
+      "source": "10",
+      "target": "8",
+      "label": ""
+    },
+    {
+      "source": "13",
+      "target": "3",
+      "label": "objetivo"
+    },
+    {
+      "source": "3",
+      "target": "14",
+      "label": "artefacto \nprincipal"
+    },
+    {
+      "source": "10",
+      "target": "14",
+      "label": "exige"
+    },
+    {
+      "source": "10",
+      "target": "21",
+      "label": "proviene de"
+    },
+    {
+      "source": "3",
+      "target": "17",
+      "label": "enfoque\nintegral"
+    },
+    {
+      "source": "16",
+      "target": "19",
+      "label": "ejemplo"
+    },
+    {
+      "source": "21",
+      "target": "20",
+      "label": "ISO/IEC la acojio como"
+    },
+    {
+      "source": "20",
+      "target": "9",
+      "label": "da lugar a"
+    },
+    {
+      "source": "10",
+      "target": "32",
+      "label": "exige"
+    },
+    {
+      "source": "32",
+      "target": "35",
+      "label": ""
+    },
+    {
+      "source": "32",
+      "target": "37",
+      "label": "Otras opciones"
+    },
+    {
+      "source": "36",
+      "target": "37",
+      "label": "administraciones publicas Espana"
+    },
+    {
+      "source": "37",
+      "target": "38",
+      "label": "riesgos\n con DATOS"
+    },
+    {
+      "source": "37",
+      "target": "39",
+      "label": "Empresas pequenas"
+    },
+    {
+      "source": "45",
+      "target": "46",
+      "label": "artefacto"
+    },
+    {
+      "source": "36",
+      "target": "52",
+      "label": ""
+    },
+    {
+      "source": "9",
+      "target": "56",
+      "label": "introduce"
+    },
+    {
+      "source": "4",
+      "target": "60",
+      "label": ""
+    },
+    {
+      "source": "60",
+      "target": "59",
+      "label": "incluye"
+    },
+    {
+      "source": "4",
+      "target": "66",
+      "label": "sector publico y proveedores"
+    },
+    {
+      "source": "4",
+      "target": "65",
+      "label": "Seguridad\npara industria"
+    },
+    {
+      "source": "6",
+      "target": "79",
+      "label": "Artefactos"
+    },
+    {
+      "source": "79",
+      "target": "80",
+      "label": "contiene"
+    },
+    {
+      "source": "80",
+      "target": "81",
+      "label": "contiene"
+    },
+    {
+      "source": "80",
+      "target": "84",
+      "label": ""
+    },
+    {
+      "source": "5",
+      "target": "79",
+      "label": ""
+    },
+    {
+      "source": "5",
+      "target": "89",
+      "label": "artefacto principal"
+    },
+    {
+      "source": "89",
+      "target": "90",
+      "label": ""
+    },
+    {
+      "source": "89",
+      "target": "94",
+      "label": "Ejemplo"
+    },
+    {
+      "source": "94",
+      "target": "94",
+      "label": "a traves de\nphising"
+    },
+    {
+      "source": "7",
+      "target": "105",
+      "label": ""
+    },
+    {
+      "source": "107",
+      "target": "109",
+      "label": "en buzon"
+    },
+    {
+      "source": "107",
+      "target": "108",
+      "label": "en transito"
+    },
+    {
+      "source": "109",
+      "target": "109",
+      "label": "se necesita razon \nlegitima para \nviolar el derecho"
+    },
+    {
+      "source": "108",
+      "target": "108",
+      "label": "autorizacion judicial\npara violar el derecho"
+    },
+    {
+      "source": "7",
+      "target": "111",
+      "label": ""
+    },
+    {
+      "source": "7",
+      "target": "113",
+      "label": ""
+    },
+    {
+      "source": "7",
+      "target": "115",
+      "label": ""
+    },
+    {
+      "source": "7",
+      "target": "117",
+      "label": "servicios esenciales"
+    },
+    {
+      "source": "7",
+      "target": "122",
+      "label": "tarjetas de\ncredito"
+    },
+    {
+      "source": "7",
+      "target": "125",
+      "label": "bancos\nmercado de pagos"
+    },
+    {
+      "source": "7",
+      "target": "128",
+      "label": "sector\nfinanciero"
+    },
+    {
+      "source": "117",
+      "target": "128",
+      "label": "relacion"
+    },
+    {
+      "source": "7",
+      "target": "129",
+      "label": ""
+    },
+    {
+      "source": "7",
+      "target": "130",
+      "label": "seguridad en servicios\nque se venden en mercado"
+    },
+    {
+      "source": "7",
+      "target": "132",
+      "label": "proteccion de \ndatos"
+    },
+    {
+      "source": "38",
+      "target": "135",
+      "label": "secundarias"
+    }
+  ]
+}
