@@ -3,6 +3,7 @@ import ReactFlow, {
   Background,
   Controls,
   Handle,
+  Panel,
   Position,
   useNodesState,
   useEdgesState,
@@ -13,8 +14,8 @@ import graphData from "./graph.json";
 
 const NODE_W = 180;
 const NODE_H = 50;
-const COL_WIDTH = 360;
-const ROW_HEIGHT = 110;
+const COL_WIDTH = 480;
+const ROW_HEIGHT = 120;
 const FONT = "'JetBrains Mono', monospace";
 const TEXT_COLOR = "#1e3a8a";
 
@@ -227,6 +228,23 @@ export default function App() {
         >
           <Background />
           <Controls />
+          <Panel position="bottom-center">
+            <div
+              style={{
+                background: "#fffbeb",
+                border: "1px solid #fde68a",
+                borderRadius: 8,
+                padding: "6px 14px",
+                fontSize: 11,
+                fontFamily: FONT,
+                color: "#92400e",
+                marginBottom: 8,
+                pointerEvents: "none",
+              }}
+            >
+              Recomendación: expande un solo nodo por nivel de profundidad para mantener la claridad del mapa.
+            </div>
+          </Panel>
         </ReactFlow>
       </div>
 
