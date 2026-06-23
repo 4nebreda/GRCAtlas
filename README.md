@@ -37,14 +37,6 @@ El proyecto toma como punto de partida un esquema diseñado en Lucidchart y lo t
 - 🔧 **Extensible y modular** — añade nuevos marcos y relaciones de forma sencilla
 - 🇪🇸 **Enfoque en el ecosistema normativo español**
 
-## Instalación
-
-```bash
-git clone https://github.com/4nebreda/GRCAtlas.git
-cd GRCAtlas
-npm install
-npm run dev
-```
 
 La aplicación estará disponible en `http://localhost:5173`.
 
@@ -71,13 +63,14 @@ python utils/transform.py
 | [React Flow](https://reactflow.dev/) | Visualización de grafos y diagramas interactivos |
 | [Vite](https://vitejs.dev/) | Bundler y entorno de desarrollo |
 
-## Marcos normativos incluidos
+## Instalación
 
-- **RGPD** — Reglamento General de Protección de Datos
-- **LOPD-GDD** — Ley Orgánica de Protección de Datos y Garantía de Derechos Digitales
-- **ENS** — Esquema Nacional de Seguridad
-- **LMDSI** — Ley de Medidas para Fortalecer la Ciberseguridad Nacional
-- **LSSI-CE** — Ley de Servicios de la Sociedad de la Información y el Comercio Electrónico
+```bash
+git clone https://github.com/4nebreda/GRCAtlas.git
+cd GRCAtlas
+npm install
+npm run dev
+```
 
 ## Changelog
 
