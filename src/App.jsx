@@ -36,8 +36,10 @@ function MindMapNode({ data }) {
         boxSizing: "border-box",
       }}
     >
-      <Handle type="target" position={Position.Left} id="left-in" style={{ background: "#94a3b8" }} />
-      <Handle type="source" position={Position.Right} id="right-out" style={{ background: "#94a3b8" }} />
+      <Handle type="target" position={Position.Left}   id="left-in"    style={{ background: "#94a3b8" }} />
+      <Handle type="source" position={Position.Right}  id="right-out"  style={{ background: "#94a3b8" }} />
+      <Handle type="source" position={Position.Left}   id="left-out"   style={{ background: "#94a3b8", top: "70%" }} />
+      <Handle type="target" position={Position.Right}  id="right-in"   style={{ background: "#94a3b8", top: "70%" }} />
       {data.label}
     </div>
   );
@@ -76,7 +78,14 @@ export default function App() {
   // lastClicked: always the last node clicked, never toggled off
   const [lastClicked, setLastClicked] = useState(null);
 
-  const posCache = useRef(new Map([[root, { x: 0, y: 0 }]]));
+  const posCache = useRef((() => {
+    const m = new Map([[root, { x: 0, y: 0 }]]);
+    const grcId = rawNodes.find((n) => n.label.includes("Gobernanza"))?.id;
+    if (grcId) m.set(grcId, { x: -COL_WIDTH, y: 0 });
+    const sgsiId = rawNodes.find((n) => n.label === "SGSI")?.id;
+    if (sgsiId) m.set(sgsiId, { x: -COL_WIDTH, y: ROW_HEIGHT });
+    return m;
+  })());
 
   const { nodes, edges } = useMemo(() => {
     const visibleIds = visibleNodeIds(root, expanded, childrenMap);
@@ -161,12 +170,17 @@ export default function App() {
 
     const flowEdges = vEdges.map((e, i) => {
       const isConnected = connectedEdgeIdxs.has(i);
+      const sPos = posCache.current.get(e.source) || { x: 0, y: 0 };
+      const tPos = posCache.current.get(e.target) || { x: 0, y: 0 };
+      const goesLeft = tPos.x < sPos.x;
+      let sourceHandle = goesLeft ? "left-out" : "right-out";
+      let targetHandle = goesLeft ? "right-in" : "left-in";
       return {
         id: `e${i}`,
         source: e.source,
         target: e.target,
-        sourceHandle: "right-out",
-        targetHandle: "left-in",
+        sourceHandle,
+        targetHandle,
         label: e.label || "",
         labelStyle: {
           fontSize: 9,
@@ -212,6 +226,8 @@ export default function App() {
   const selectedNode = rawNodes.find((n) => n.id === lastClicked);
   const showPanel = selectedNode && selectedNode.footnotes?.length > 0;
 
+  const [lightbox, setLightbox] = useState(null);
+
   return (
     <div style={{ width: "100vw", height: "100vh", display: "flex", overflow: "hidden" }}>
       <div style={{ flex: 1, minWidth: 0 }}>
@@ -222,6 +238,7 @@ export default function App() {
           onEdgesChange={onEdgesChange}
           onNodeClick={onNodeClick}
           nodeTypes={nodeTypes}
+          nodesDraggable={false}
           fitView
           minZoom={0.1}
           maxZoom={2}
@@ -269,28 +286,101 @@ export default function App() {
             {selectedNode.footnotes.length} nota(s) ·{" "}
             {(childrenMap.get(selectedNode.id) || []).length} hijo(s)
           </p>
-          {selectedNode.footnotes.map((f, i) => (
-            <div
-              key={i}
-              style={{
-                background: "white",
-                padding: 12,
-                marginBottom: 10,
-                borderRadius: 8,
-                border: "1px solid #e2e8f0",
-                fontSize: 13,
-                whiteSpace: "pre-wrap",
-                wordBreak: "break-word",
-                overflowWrap: "break-word",
-                lineHeight: 1.6,
-                fontFamily: FONT,
-                color: TEXT_COLOR,
-              }}
-            >
-              {f}
-            </div>
-          ))}
+          {selectedNode.footnotes.map((f, i) => {
+            // Evaluamos si la nota actual es un objeto estructurado o un string simple
+            const isObject = typeof f === "object" && f !== null;
+            const type = isObject ? f.type : "text";
+            const content = isObject ? f.content : f;
+
+            return (
+              <div
+                key={i}
+                style={{
+                  background: "white",
+                  padding: type === "image" ? "8px" : "12px", // Menos padding si es imagen para que luzca mejor
+                  marginBottom: 10,
+                  borderRadius: 8,
+                  border: "1px solid #e2e8f0",
+                  fontSize: 13,
+                  whiteSpace: "pre-wrap",
+                  wordBreak: "break-word",
+                  overflowWrap: "break-word",
+                  lineHeight: 1.6,
+                  fontFamily: FONT,
+                  color: TEXT_COLOR,
+                }}
+              >
+                {type === "image" ? (
+                  <img
+                    src={content}
+                    alt="Footnote adjunto"
+                    onClick={() => setLightbox(content)}
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      borderRadius: 6,
+                      display: "block",
+                      cursor: "zoom-in",
+                    }}
+                  />
+                ) : (
+                  content
+                )}
+              </div>
+            );
+          })}
         </aside>
+      )}
+
+      {lightbox && (
+        <div
+          onClick={() => setLightbox(null)}
+          style={{
+            position: "fixed",
+            inset: 0,
+            background: "rgba(0,0,0,0.75)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 1000,
+            cursor: "zoom-out",
+          }}
+        >
+          <img
+            src={lightbox}
+            alt="Vista ampliada"
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              maxWidth: "90vw",
+              maxHeight: "90vh",
+              borderRadius: 10,
+              boxShadow: "0 8px 40px rgba(0,0,0,0.5)",
+              cursor: "default",
+            }}
+          />
+          <button
+            onClick={() => setLightbox(null)}
+            style={{
+              position: "fixed",
+              top: 20,
+              right: 24,
+              background: "white",
+              border: "none",
+              borderRadius: "50%",
+              width: 36,
+              height: 36,
+              fontSize: 18,
+              cursor: "pointer",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              color: "#1e3a8a",
+              fontFamily: FONT,
+            }}
+          >
+            ✕
+          </button>
+        </div>
       )}
     </div>
   );

@@ -4,18 +4,22 @@
     {
       "id": "3",
       "label": "Gestion de la seguridad de la informacion",
-      "footnotes": []
+      "footnotes": [
+        "Nucleo del GRC", "Objetivo: proteger activos de informacion"
+      ]
     },
     {
       "id": "4",
       "label": "Estandares",
-      "footnotes": []
+      "footnotes": [
+        "Normas y requisitos aplicables y certificables"
+      ]
     },
     {
       "id": "5",
       "label": "Gestion de ciberincidentes",
       "footnotes": [
-        "Ciberindicente: n incidentes afectando el funcionamiento y/o CIA"
+        "Ciberincidente: evento o conjunto de eventos afectando la CIA de la informacion de un sistema"
       ]
     },
     {
@@ -29,40 +33,63 @@
     {
       "id": "7",
       "label": "Legislacion \naplicable",
-      "footnotes": []
+      "footnotes": [
+        "Leyes y regulaciones obligatorias"
+      ]
+    },
+    {
+      "id": "35",
+      "label": "HLS (High Level Structure)",
+      "footnotes": [
+        "HLS: El estandar sigue una Estructura de Alto Nivel (High Level Structure)\nEsto permite que se pueda integrar con otros estandares ISO y compartir contenido",
+        "Es el caso de las ISO 9001 (Calidad) y la ISO 27001 (Seguridad de la informacion)\nSe pueden integrar en un unico sistema de gestion"
+      ]
+    },
+        {
+      "id": "137",
+      "label": "Auditorias",
+      "footnotes": [
+        "Internas\nExterna (certificacion) - 3 años\nSeguimiento - 1/2  años"
+      ]
+    },
+    {
+      "id": "138",
+      "label": "Ciclo PDCA",
+      "footnotes": [
+        "Bucle PDCA / Ciclo de Deming\n Plan : seccion 4-7 ; alcance, roles, riesgos\n Do (Hacer): seccion 8 ; Implantar, Implementar\n Check (Validar) : seccion 9 ; medir eficacia, auditoria interna\n Act: seccion 10 ; mejoras, correcciones",
+        { "type": "image", "content": "/pdca.png" }
+      ]
     },
     {
       "id": "8",
       "label": "ISO 27001\n(certificable)",
       "footnotes": [
-        "HLS: High Level Structure",
-        "Versiones (1-2-3):\nReduccion de controles\nInclusion de HLS\nFlexibilidad\nEnfoque basado en riesgo\nIntroduccion de cicle de Deming",
-        "11 secciones:\n0-3 Introductorias\n4-10 obligatorias de implementar\nBucle PDCA\nPlan : seccion 4-7\nalcance, roles, riesgos\nDo (Hacer): seccion 8\nImplantar, Implementar\nCheck (Validar) : seccion 9\nmedir eficacia, auditoria interna\nAct: seccion 10\nmejoras, correcciones",
-        "Compromiso de la direccion\nFechas: 1/2 a 2 años (depende tamaño)\nEquipo\nResponsable\nSponsor - Directivo que apoye\nResponsable de sistemas",
-        "Internas\nExterna (certificacion) - 3 años\nSeguimiento - 1/2  años",
-        "Estructura comun entre ISOs \nPermite\nIntegracion\nReutilizacion de contenido\nMismos apartados",
-        "0.Introducción\n1. Alcance (Objeto y campo de aplicación) \n2. Referencias normativas (Normas para consulta) \n3. Términos y definiciones \n4. Contexto de la organización \n5. Liderazgo \n6. Planificación  (Evaluacion de riesgos de seguradad de la informacion)\n7. Soporte (incluyendo Recursos) \n8. Operación (Tratamiento de riesgos de seguridad)\n9. Evaluación del desempeño \n10. Mejora\n\nMayores diferencias entre las dos ISOs"
+        "Versiones (1-2-3):\n Reduccion de controles\n Inclusion de HLS\n Flexibilidad\n Enfoque basado en riesgo\n Introduccion del ciclo de Deming",
+        "Arranque del proyecto:\n Compromiso de la direccion\n Fechas: 1/2 a 2 años (depende tamaño)\n Equipo:\n  Responsable\n  Sponsor - Directivo que apoye\n  Responsable de sistemas",
+        "Secciones:\n Introductorias:\n  0.Introducción\n  1. Alcance (Objeto y campo de aplicación) \n  2. Referencias normativas (Normas para consulta) \n  3. Términos y definiciones \n Obligatorias:\n  4. Contexto de la organización \n  5. Liderazgo \n  6. Planificación  (Evaluacion de riesgos de seguradad de la informacion)\n  7. Soporte (incluyendo Recursos) \n  8. Operación (Tratamiento de riesgos de seguridad)\n  9. Evaluación del desempeño \n  10. Mejora"
       ]
     },
     {
       "id": "9",
       "label": "ISO 27002\n(buenas practicas)",
       "footnotes": [
-        "93 controles:\norganizativos\npersonas\nfisicos(activos tangibles)\ntecnologicos\nAnexos - para adaptarse de version en version",
-        "tipo: preventivo (antes), detectivo (durante), correctivo (despues)\ndimensiones: CIA\nconcepto de ciber: mapeable con NIST\ncapacidades operativas\ndominio de seguridad"
+        "93 controles","Grupos de controles:\n Organizativos\n Personas\n Fisicos(activos tangibles)\n Tecnologicos\nExtra: Anexos - para adaptarse de version en version",
+        "Atributos de los controles: \n Tipo: preventivo (antes), detectivo (durante), correctivo (despues)\n Dimensiones: CIA\n Concepto de ciberseguridad: mapeable con NIST\n Capacidades operativas\n Dominio de seguridad"
       ]
     },
     {
       "id": "10",
       "label": "ISO 27000",
       "footnotes": [
-        "27003 (implementacion SGSI)\n27004 (metricas de seguridad)\n27005 (gestion de riesgos)"
+        "27001 (Estandar certificable)\n27002 (controles y buenas practicas)\n27003 (implementacion SGSI)\n27004 (metricas de seguridad)\n27005 (gestion de riesgos)"
       ]
     },
     {
       "id": "11",
-      "label": "ISO 9001 (calidad)",
-      "footnotes": []
+      "label": "ISO 9001 \n(Calidad)",
+      "footnotes": [
+        "Estandar de calidad","HLS: High Level Structure"
+      ]
     },
     {
       "id": "13",
@@ -75,9 +102,9 @@
       "id": "14",
       "label": "SGSI",
       "footnotes": [
-        "Def: Conjunto de politicas y procedimientos para recursos y actividades.\nAñade ISO 27000: \nparte del sistema de gestion general\nenfoque de riesgo\n\nObj: Proteger activos",
-        "Diferencia:\nAuditable vs Adaptable\nCertificable vs No certificable\nGestion formal vs Buenas preacticas\n¿Como? vs ¿Que?",
-        "Estrategias\nPor donde empezar\ncomo ejecutar un proyecto\nPersonas\nFormacion\nProcesos \nMejorar sistemas\nTecnologia"
+        "Definicion:\nConjunto de politicas y procedimientos para recursos y actividades.","Artefacto obligatorio para ISO 27000: \nLa ISO lo define como parte del sistema de gestion general","Objetivo:\n Proteger activos\n Enfoque de riesgo",
+        "Diferencia con Framework (NIST):\n Auditable\n Certificable\n Gestion formal mas que buenas practicas\n Define el como hacer y no tanto el que hacer",
+        "Incluye...\n Estrategias: Por donde empezar y como ejecutar un proyecto\n Personas y la formacion de estas\n Procesos\n Tecnologia"
       ]
     },
     {
@@ -89,7 +116,7 @@
       "id": "17",
       "label": "Gobernanza, Riesgo, Cumplimiento",
       "footnotes": [
-        "Idea: alinear negocio, seguridad y normativa\nG: alinear seguridad con objetivos negocio\nR: identificar, analizar, riesgos sobre los activos y tomar medidas\nC: cumplimiento de politicas internas y leyes externas"
+        "Idea: alinear negocio, seguridad y normativa","G: alinear seguridad con objetivos negocio\nR: identificar, analizar, riesgos sobre los activos y tomar medidas\nC: cumplimiento de politicas internas y leyes externas"
       ]
     },
     {
@@ -100,7 +127,9 @@
     {
       "id": "20",
       "label": "ISO 17799",
-      "footnotes": []
+      "footnotes": [
+        "Esta ISO dio lugar a la ISO 27002" 
+      ]
     },
     {
       "id": "21",
@@ -120,33 +149,29 @@
       ]
     },
     {
-      "id": "35",
-      "label": "ISO 31000\n(gestion de riesgos en general)",
-      "footnotes": []
-    },
-    {
       "id": "36",
-      "label": "MAGERIT\n3 libros",
+      "label": "MAGERIT (3 libros)",
       "footnotes": [
-        "Dependencias entre activos\nDimensiones de activos : \nCIA (Confidencialidad, Integridad, Disponibilidad)\nAutenticidad (es quien dice ser)\nTrazabilidad (quien hizo que)\nTipos de riesgo: \nIntrinseco del activo - sin medidas de seguridad\nFrequencia (probabilidad) y degradacion (impacto) ← generado por amenaza\nResidual: tras medidas de seguridad\nPotencial:  si no se toman medidas adecuadas\nAcumulado: total de la empresa. Suma de riesgo de los activos\nSe compara con el umbral definido\nSalvaguarda \nMedida de seguridad \nPuede tener diferences formas\nSe incorpora al activo",
-        "identificar y valorar activo\nidentificar amenzas\nriesgo intrinseco de las amenazas\nseleccion de salvaguardas\nriesgo residual"
-      ]
+        "Toma en cuenta dependencias entre activos","Expande las dimensiones de los activos: \n CIA (Confidencialidad, Integridad, Disponibilidad)\n + Autenticidad (es quien dice ser)\n + Trazabilidad (quien hizo que)","Tipos de riesgo: \n Intrinseco del activo - sin medidas de seguridad\n Frequencia (probabilidad) y degradacion (impacto) ← generado por amenaza\n Residual: tras medidas de seguridad\n Potencial:  si no se toman medidas adecuadas\n Acumulado: total de la empresa. Suma de riesgo de los activos\n Se compara con el umbral definido", "Enfasis en salvaguardas: \n Medida de seguridad \n Puede tener diferentes formas\n Se incorpora al activo"      ]
     },
     {
       "id": "37",
-      "label": "Octave, NIST, ISO 27005",
+      "label": "INCIBE, AEPD, Octave, NIST, ISO 27005",
       "footnotes": []
     },
     {
       "id": "38",
       "label": "AEPD",
-      "footnotes": []
+      "footnotes": [
+        "Agencia Española de Proteccion de Datos", "Se encarga del cumplimiento de la LOPDGDD y el RGPD en España"
+      ]
     },
     {
       "id": "39",
       "label": "INCIBE",
       "footnotes": [
-        "Se crea una tabla con: \n\nDefinir nivel de riesgo aceptable (1-9)\n Activos criticos\nIdentificar amenazas\nProbabilidad\nImpacto\nRiesgo = Impacto x Probabilidad"
+        "Se define nivel de riesgo aceptable (1-9)","Se definen:\n Activos criticos\n Amenazas\n Cruzes Activo-Amenaza\n   Probabilidad\n   Impacto\n   Riesgo = Impacto x Probabilidad",
+        { "type": "image", "content": "/aarr.png" }
       ]
     },
     {
@@ -180,7 +205,7 @@
       "id": "52",
       "label": "Libro 1: metodo",
       "footnotes": [
-        "MAR 1: Caracterizacion de activos\nValor del activo: \nPropio / Acumulado (otros activos se apoyan en el)\nCuantitativa/ Cualitativo\nun numero para C I A Autenticacion\nMAR 2: Caracterizacion de amenazas\nMAR 3: Caracterizacion de salvaguardas\nMAR 4: Estimacion de riesgo"
+        "MAR 1: Caracterizacion de activos. Se define el valor del activo: \n Propio/Acumulado (otros activos se apoyan en el)\n Cuantitativo/Cualitativo\n Un numero para C I A Autenticacion\nMAR 2: Caracterizacion de amenazas\nMAR 3: Caracterizacion de salvaguardas\nMAR 4: Estimacion de riesgo"
       ]
     },
     {
@@ -383,8 +408,19 @@
     },
     {
       "id": "135",
-      "label": "Vasca\nCatalana",
-      "footnotes": []
+      "label": "Vasca y Catalana",
+      "footnotes": [
+        "Leyes de proteccion de datos de cada comunidad autonoma\nSe aplican a empresas que operan en esa comunidad"
+      ]
+    },
+    {
+      "id": "136",
+      "label": "Extra: Plan Director de Seguridad",
+      "footnotes": [
+        { "type": "text", "content": "Para cualquier empresa" },
+        { "type": "text", "content": "Planificar acciones de seguridad" },
+        { "type": "image", "content": "/pds.png" }
+      ]
     }
   ],
   "edges": [
@@ -394,8 +430,28 @@
       "label": ""
     },
     {
+      "source": "8",
+      "target": "137",
+      "label": ""
+    },
+    {
+      "source": "8",
+      "target": "138",
+      "label": "se basa en"
+    },
+    {
+      "source": "32",
+      "target": "36",
+      "label": "administraciones publicas Espana"
+    },
+    {
       "source": "3",
       "target": "7",
+      "label": ""
+    },
+    {
+      "source": "4",
+      "target": "136",
       "label": ""
     },
     {
@@ -435,18 +491,13 @@
     },
     {
       "source": "10",
-      "target": "14",
-      "label": "exige"
-    },
-    {
-      "source": "10",
       "target": "21",
       "label": "proviene de"
     },
     {
       "source": "3",
       "target": "17",
-      "label": "enfoque\nintegral"
+      "label": "enfoque integral"
     },
     {
       "source": "16",
@@ -454,42 +505,38 @@
       "label": "ejemplo"
     },
     {
+      "source": "8",
+      "target": "35",
+      "label": "sigue"
+    },
+    {
+      "source": "35",
+      "target": "11",
+      "label": "sigue"
+    },
+    {
       "source": "21",
       "target": "20",
       "label": "ISO/IEC la acojio como"
-    },
-    {
-      "source": "20",
-      "target": "9",
-      "label": "da lugar a"
     },
     {
       "source": "10",
       "target": "32",
       "label": "exige"
     },
-    {
-      "source": "32",
-      "target": "35",
-      "label": ""
-    },
+
     {
       "source": "32",
       "target": "37",
       "label": "Otras opciones"
     },
     {
-      "source": "36",
-      "target": "37",
-      "label": "administraciones publicas Espana"
-    },
-    {
-      "source": "37",
+      "source": "32",
       "target": "38",
-      "label": "riesgos\n con DATOS"
+      "label": "riesgos\n con datos"
     },
     {
-      "source": "37",
+      "source": "32",
       "target": "39",
       "label": "Empresas pequenas"
     },
