@@ -239,6 +239,8 @@ export default function App() {
           onNodeClick={onNodeClick}
           nodeTypes={nodeTypes}
           nodesDraggable={false}
+          nodesConnectable={false}
+          elementsSelectable={false}
           fitView
           minZoom={0.1}
           maxZoom={2}
