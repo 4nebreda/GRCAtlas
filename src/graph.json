@@ -26,8 +26,8 @@
       "id": "6",
       "label": "Planes de continuidad",
       "footnotes": [
-        "Dar respuesta rapida y eficaz ante incidentes --> recuperar actividad normal\nReducir toma de decisiones",
-        "Mantener nivel de servicio\nDefinir periodo de recuperacion\nAnalisis y mejora"
+        "Objetivo:\n Dar respuesta rapida y eficaz ante incidentes y recuperar actividad normal\n Reducir toma de decisiones",
+        "Ayuda a: \n Mantener nivel de servicio\n Definir periodo de recuperacion\n Analisis y mejora"
       ]
     },
     {
@@ -196,9 +196,10 @@
     },
     {
       "id": "46",
-      "label": "SOA\ndeclaracion de aplicabilidad",
+      "label": "SOA",
       "footnotes": [
-        "Medidas de seguridad aplicables\nOperando o no"
+        "Declaracion de aplicabilidad",
+        "Seleccion de controles de seguridad\nQue controles se van a aplicar y cuales no\nSi ya estan aplicados"
       ]
     },
     {
@@ -226,48 +227,85 @@
       "id": "60",
       "label": "TISAX",
       "footnotes": [
-        "Niveles de evaluacion\n1: autoevaluacion\n2: evaluacion remota\n3: Evaluacion in-situ (3rd party comes to business)\nNiveles de madurez\ndefine must / should",
+        "Estandar de evaluacion y certificacion para demostrar el cumplimiento de requisitos de seguridad de informacion en la industria automotriz",
         "Necesidad de enfoque especifico\nFalta de confianza en auditorias de 3ros (ISO27001)",
-        "fabricante impone certificarse en TISAX (aleman)\nAutoevaluacion\nEvaluacion → Corrective plan (si es necesario)\nFollow up"
+        "Suelen pedirlo empresas de automocion alemanas a sus proveedores"
+      ]
+    },
+    {
+      "id": "139",
+      "label": "Evaluaciones TISAX",
+      "footnotes": [
+        "Niveles de evaluacion\n 1:autoevaluacion\n 2:evaluacion remota\n 3:Evaluacion in-situ (3rd party comes to business)","La evaluacion establece niveles de madurez en el evaluado\nDefine must / should sobre los aspectos evaluados"
       ]
     },
     {
       "id": "65",
-      "label": "IEC 62443\nIACS Industrial Automation and Control Systems",
+      "label": "IEC 62443",
       "footnotes": [
-        "Familia → 62443-1, 62443-2,...\nGeneral (conceptos)\nProcedimientos (como hacer?)\nAARR\nSistema (lineas de fabricacion, redes)\nZonas y conductos\n Niveles de seguridad \nComponentes (PLC, HMI...)\nQue hacer , como hacer (Requisitos)\nTestear en todas las fases del ciclo",
-        "Assesment\nImplementation\nMantenance",
-        "Conceptos importantes:\n\nZonas y conductos: Separacion de red en zonas con mismo nivel de seguridad y conexiones entre estas\n\nNiveles de seguridad (SL) (1 - 4): Cuan resistente es a ataques\nSLT (objetivo): Cuan lejos estamos del nivel de seguridad por zona.\n\tSLT = Riesgo sin mitigar / riesgo tolerable"
+        "IACS Industrial Automation and Control Systems",
+        "Hace enfasis en las lineas de fabricacion, redes y componentes de produccion y control",
+        "Fases del ciclo de vida de seguridad industrial\n Assesment: analisis\n Implementation: aplicar medidas\n Mantenance: supervision y actualizacion"
+      ]
+    },
+    {
+      "id": "142",
+      "label": "Zonas y conductos",
+      "footnotes": [
+        "Conceptos importantes en cuanto a ciberseguridad industrial:\n Zonas: Separacion de red en zonas con mismo nivel de seguridad\n Conductos: conexiones entre zonas\n\nNiveles de seguridad (SL) (1 - 4): Cuan resistente es a ataques\nSLT (objetivo): Cuan lejos estamos del nivel de seguridad por zona.\n\tSLT = Riesgo sin mitigar / riesgo tolerable"
       ]
     },
     {
       "id": "66",
       "label": "ENS\n(ley/ certificacion)",
       "footnotes": [
-        "Def: Establece principios, requisitos y medidas de seguridad.\nObjetivo:\nCrear condiciones de seguridad\nPromover gestion continuada de la seguridad\nMejor resiliencia\nEstructura:7 caps -- 1 Disposicion transitoria -- 3 disposiciones adicionales -- 4 anexos",
+        "Definicion: Establece principios, requisitos y medidas de seguridad","Objetivos:\n Crear condiciones de seguridad\n Promover gestion continuada de la seguridad\n Mejor resiliencia",
+        "Dimensiones de seguridad definidas:\n Confidencialidad\n Integridad\n Disponibilidad\n Autenticidad\n Trazabilidad\n Conservacion"
+      ]
+    },
+    {
+      "id": "140",
+      "label": "Principios y medidas de seguridad",
+      "footnotes": [
         "Seguridad tiene que estar en todo momento y en todas las áreas \nGestion basada en riesgos\nPrevencion, deteccion, respuesta y conservacion\nDefensa en profundidad\nVigilancia continua\nDiferenciacion de responsabilidad",
+        "75 medidas:\n Marco organizativo: Organizacion global (4)\n Marco operacional: Operacion del sistema (31)\n Medidas de protección: Activos concretos (40)"
+      ]
+    },
+    {
+      "id": "141",
+      "label": "Roles definidos",
+      "footnotes": [
         "Responsable de la informacion:Establece requisitos de seguridad de informacion\nResponsablde del servicio: Establece requisitos de seguridad en servicios\nResponsable de seguridad: Mantener seguridad\nResponsable del sistema: Verifica sistema de informacion",
-        "Confidencialidad\nIntegridad\nDisponibilidad\nAutenticidad\nTrazabilidad\nConservacion",
-        "75 en total:\nMarco organizativo: Organizacion global (4)\nMarco operacional: Operacion del sistema (31)\nMedidas de protección: Activos concretos (40)",
-        "Coordina la seguridad a nivel empresa\nFormado: Responsable de Seguridad y representates de las áreas\nToma decisiones basadas en información y opiniones técnicas"
+        "Define un Comite de seguridad\n Coordina la seguridad a nivel empresa\n Formado por: Responsable de Seguridad y representates de las áreas"
+
       ]
     },
     {
       "id": "79",
       "label": "Plan de continuidad de negocio (BCP)",
       "footnotes": [
-        "confianza\nintegridad de personas\nrelaciones cliente/proveedor\nno parar la produccion\nmedioambiente"
+        "Prioridades: \n confianza\n integridad de personas\n relaciones cliente/proveedor\n no parar la produccion\n medioambiente"
       ]
     },
     {
       "id": "80",
       "label": "Plan de continuidad de IT",
       "footnotes": [
-        "0. Alcance: que tomamos en cuenta\nAnalisis Organizacion\nServicios criticos y sus activos\nRiesgos\nImpacto (BIA, RPO, RTO)\nEstrategias: ¿Nuestras capacidades responden a las necesidades?\nRepondemos si se materializa la amenaza\n Definimios herramientas que tenemos y las que hay que anadir para cumplir BIA(RPO,RTO)\n Respuesta a contingencia (situacion adversa)\nImplementar el plan\nmedidas a tomar dependiendo de la criticidad de los servicios\nArtefacto principal: Plan de crisis\n Probar y revisar plan\n¿ Se cumple BIA?\nActualizado (se define cada cuanto) y no obsoleto\ncontiene: Plan de mantenimiento y plan de pruebas\nComunicar\nFormar al personal",
-        "servicio critico: si falla no se puede producir\n sus activos: DB, servidor, internet, cortafuegos....\nRPO: Datos perdidos\nRTO: tiempo perdido",
-        "herramientas posibles: \nbackup\nhardware: onsite, offsite\npersonal: no depender de una persona, accesos remotos\ncentros de respaldo \ncold, warm, hot : infraestructura externa preparada para reemplazar servicios. Mas caliente mas rapido el despliegue y mas preparado esta \nproveedores con acuerdos de tiempos cortos",
-        "plan de crisis define:\nen que condiciones se acciona\ncomo se comunica\npersonas clave\ncontiene:\nPlanes de recuperacion (varios, por sistema) y contienen:\nProcedimientos",
-        "plan de prueba:\ncada cuanto, quien, cuando?\nque pruebas exactamente\nex: parada y arranque de servicios"
+        "Fases: \n 0. Alcance\n 1. Analisis Organizacion: \n Servicios criticos y sus activos\n Riesgos\n Impacto (BIA, RPO, RTO)\n 2. Estrategias: se definen necesidades, respuestas y estrategias\n 3. Respuesta a contingencia (situacion adversa)\n  Implementar la estrategia\n  Medidas a tomar dependiendo de la criticidad de los servicios\n  Contiene: \n   Plan de crisis \n   Plan de mantenimiento \n   Plan de pruebas \n 4. Probar y revisar plan"
+      ]
+    },
+    {
+      "id": "146",
+      "label": "Conceptos clave",
+      "footnotes": [
+        "Servicio critico: Si falla no se puede producir\n Sus activos relacionados: DB, servidor, internet, cortafuegos....","RPO: Datos perdidos\nRTO: tiempo perdido"
+      ]
+    },
+    {
+      "id": "147",
+      "label": "Herramientas posibles",
+      "footnotes": [
+        "backup\nhardware: onsite, offsite\npersonal: no depender de una persona, accesos remotos\ncentros de respaldo \n cold, warm, hot : infraestructura externa preparada para reemplazar servicios. Mas caliente mas rapido el despliegue y mas preparado esta \nproveedores con acuerdos de tiempos cortos"
       ]
     },
     {
@@ -284,27 +322,24 @@
       "id": "89",
       "label": "IRP: Plan de respuesta a ciberincidentes",
       "footnotes": [
-        "Replicabilidad\nRapidez:\ndeteccion\nrespuesta\nCumplimiento"
+        "Objetivos: \n Repicabilidad\n Rapidez:\n Deteccion\n Respuesta\n Cumplimiento",
+        {"type": "image", "content": "/irp-phases.png" },
+        "ISO 27002 lo requiere"
       ]
     },
     {
       "id": "90",
-      "label": "ISO 27002 lo requiere",
-      "footnotes": []
+      "label": "Playbook",
+      "footnotes": [
+        "Documento que define que hacer en cada fase del IRP\nSe puede tener un playbook por amenaza"
+      ]
     },
     {
       "id": "94",
       "label": "Ransomware",
       "footnotes": [
-        "Cifrar archivos\nMoverse por la red y cifrar otros equipos\npedir rescate\n\ntipo extra: RansomwareaaS",
-        "Preparacion\nprocedimientos y responsables\nplan de continuidad\ninfo par analisis (ex: inventario)\nbackups\nplaybook para incidentes\ntrafico capturado\nEDR : endpoint detection response(analisis)\nEPP : endpoint protection platform(prevencion)\nDOCUMERNTACION EN PAPEL",
-        "Deteccion\n\nEstado de deteccion:\ntodavia no hay cifrado\nhay cfrado\nIndicador:\nInterna: trabajdor, alertas\nExterna: Incibe (poco falso positivo) , cliente...",
-        "Mismas fases que IRP\ndefine que hacer en cada una\nUno por amenaza",
-        "Analisis\ntipo\npeligrosidad (1-5)\nregistrar\nnotificar",
-        "Contencion\ncortar comunicacion de la red\napagar equipos (se pierde RAM)\nsegmentar red\nEDR en los equipos si no hay\nRevisar mejor comuncicaciones, logs, correo",
-        "Mitigacion\neliminar el malware\nredisenar/segmentar la red\nvlan (capa 2)\nfirewall (capa 3)\nactualizar equipos y credenciales",
-        "Post incidente\npreguntas\nQue?consecuencias?para que no vuelva a ocurrir?\nmetricas: tiempos, afectados\nimpacto: costes, interrupciones, sanciones\nmejoras: medidas, herramientas",
-        "Recuperacion (3 opciones)\nbackup completo\nrestaurar snapshot (shadow copy)\nherramienta de descifrado\ninventario de activos priorizados ayuda\nImportante: Guardar archivos cifrados por si se publica una solucion\nCuidado: bakcup puede estar infectado\nComunicacion\nInterna : empleados\nExterna: clientes, AEPD"
+        "Concepto:\n Cifrar archivos\n Moverse por la red y cifrar otros equipos\n Pedir rescate\n\nTipo extra: RansomwareaaS",
+        {"type": "image", "content": "/ransomware-irp.png" }
       ]
     },
     {
@@ -324,12 +359,16 @@
     {
       "id": "108",
       "label": "Privacidad de comunicaciones",
-      "footnotes": []
+      "footnotes": [
+        "autorizacion judicial para violar el derecho"
+      ]
     },
     {
       "id": "109",
       "label": "Derecho de intimidad",
-      "footnotes": []
+      "footnotes": [
+        "se necesita razon legitima para violar el derecho"
+      ]
     },
     {
       "id": "111",
@@ -342,23 +381,23 @@
       "id": "113",
       "label": "Ley General de Telecomunicaciones",
       "footnotes": [
-        "interceptacion legal de comunicaciones en casos extremos: vidas en peligro\nmayores derechos a los usuarios"
+        "interceptacion legal de comunicaciones en casos extremos: vidas en peligro","mayores derechos a los usuarios"
       ]
     },
     {
       "id": "115",
       "label": "Ley de servicios de la sociedad de la informacion",
       "footnotes": [
-        "servicios de internet: ecommerce, web\nconsentimiento de spam\nuso de cookies\nex: bloqueo de direcciones IP de La Liga. Necesita autorizacion judicial"
+        "se aplica a servicios de internet:\n ecommerce, web\n consentimiento de spam\n uso de cookies","ejemplo: bloqueo de direcciones IP de La Liga. Necesita autorizacion judicial"
       ]
     },
     {
       "id": "117",
       "label": "NIS 2 (Network & Information Security)\nDirectiva EU",
       "footnotes": [
-        "empresas:\nservicios esenciales\nproveedores de servicios",
-        "Ley por cada pais\nEspana va tarde",
-        "Mejoras:\nMayor alcance:inclusion de sectores y nuevas tecnologias (IA)\nEntidades esenciales (ya habian)\nEntidades importante (se anaden)\nToma en cuenta supply chain\nNotificacion de incidentes\nSupervision y sanciones\nResponsabilidad de la directiva\nFormacion\nSanciones personales / Inhabilitacion temporal"
+        "Empresas impactadas:\n servicios esenciales\n proveedores de servicios",
+        "Ley por cada pais",
+        "Mejoras:\n Mayor alcance:inclusion de sectores y nuevas tecnologias (IA)\n Entidades esenciales (ya habian)\n Entidades importante (se anaden)\n Toma en cuenta supply chain\n Notificacion de incidentes\n Supervision y sanciones\n Responsabilidad de la directiva\n Formacion\n Sanciones personales / Inhabilitacion temporal"
       ]
     },
     {
@@ -368,42 +407,79 @@
     },
     {
       "id": "122",
-      "label": "PCI-DSS\nDirectiva EU",
+      "label": "PCI-DSS Directiva EU",
       "footnotes": [
-        "entidades financieras\nempresas que guardan info de tarjetas",
-        "red segura\nproteger datos\ngestion de vulnerabilidades\nmedidas de control de acceso"
+        "Impacta a: \n entidades financieras\n empresas que guardan info de tarjetas",
+        "Conceptos principales:\n red segura\n proteger datos\n gestion de vulnerabilidades\n medidas de control de acceso"
       ]
     },
     {
       "id": "125",
       "label": "PSD2",
       "footnotes": [
-        "proteger datos\nseguridad de clientes\nunificar proveedores\nincluir fintechs",
-        "SCA (Strong Auth)\nMFA\nverificaciones"
+        "Objetivos: \n proteger datos\n seguridad de clientes\n unificar proveedores\n incluir fintechs",
+        "Medidas: \n SCA (Strong Auth)\n MFA\n verificaciones"
       ]
     },
     {
       "id": "128",
       "label": "DORA",
-      "footnotes": []
+      "footnotes": [
+        "Seguridad y resilencia de los servicios financieros"
+      ]
     },
     {
       "id": "129",
-      "label": "elDAS\nID unificado y seguro en EU",
-      "footnotes": []
+      "label": "elDAS",
+      "footnotes": [
+        "ID unificado y seguro en EU"
+      ]
     },
     {
       "id": "130",
-      "label": "CRA",
+      "label": "CRA (Cyber Resilience Act)",
       "footnotes": [
-        "Mejor seguridad en mercado - marcado CE\ngestion de vulnerabilidades\ntransparencia con clientes -  proveedores\nreportes"
+        "Objetivos:\n Mejor seguridad en mercado \n marcado CE\n gestion de vulnerabilidades\n transparencia con clientes -  proveedores\n reportes",
+        "Obligatorio a partir del 11 de diciembre de 2027"
+      ]
+    },
+        {
+      "id": "131",
+      "label": "Artefactos",
+      "footnotes": [
+        "Análisis de riesgos",
+        "SBOM (Software Bill of Materials) y VEX (Vulnerability Exploitability eXchange)",
+        "Plan de gestión de vulnerabilidades",
+        "Documentación técnica de conformidad",
+        "Política de actualizaciones de seguridad"
       ]
     },
     {
       "id": "132",
       "label": "RGPD\n(reglamento/ ley EU)",
       "footnotes": [
-        "artefacto principal: Evaluacion de impacto\ndatos personales: \npersonales\nbiometricos\ngeneticos\nrelativos a la salud\nse aplica a tratamientos de datos manuales y automatizados\ncada tratamiento tiene su responsable\nel Consentimiento se da con una accion clara negativa (no la no negacion)\nseudonimizacion: datos no atribuibles a una persona sin info adicional.\nex: dos tablas: id, edad ; id, nombre. Solo la primera tabla es seudonimizada. \nanonimizacion: una tabla: edad, trabajo. Irreversible, no se puede atribuir a una persona\nNo aplica a personas fallecidas\nNo se aplica a documentos personales o domesticos. ex: agenda\nRol clave: DPO - Delegado de Proteccion de Datos\nconocimientos en derecho\nsin conflicto de intereses\nresponsable de cumplimiento de proteccion de datos"
+        "Se aplica a tratamientos de datos manuales y automatizados y cada tratamiento tiene su responsable","el Consentimiento se da con una accion clara positiva (no la no negacion). Un ejemplo de esto es un checkbox deseleccionado por defecto", "No aplica a personas fallecidas\nNo se aplica a documentos personales o domesticos. ex: agenda","Rol clave: DPO - Delegado de Proteccion de Datos\n conocimientos en derecho\n sin conflicto de intereses\n responsable de cumplimiento de proteccion de datos"
+      ]
+    },
+    {
+      "id": "143",
+      "label": "DPIA",
+      "footnotes": [
+        "Artefacto principal de RGPD: Evaluacion de impacto en la proteccion de datos","Debe incluir:\n Descripcion del tratamiento\n Evaluacion de la necesidad y proporcionalidad del tratamiento\n Evaluacion de riesgos para los derechos y libertades de las personas fisicas\n Medidas para mitigar riesgos"
+      ]
+    },
+    {
+      "id": "144",
+      "label": "datos personales",
+      "footnotes": [
+        "datos personales: \n personales\n biometricos\n geneticos\n relativos a la salud\n"
+      ]
+    },
+    {
+      "id": "145",
+      "label": "Anonimizacion y seudonimizacion",
+      "footnotes": [
+        "seudonimizacion: datos no atribuibles a una persona sin info adicional.\nex: dos tablas: id, edad ; id, nombre. Solo la primera tabla es seudonimizada.","anonimizacion: una tabla: edad, trabajo. Irreversible, no se puede atribuir a una persona"
       ]
     },
     {
@@ -427,6 +503,46 @@
     {
       "source": "3",
       "target": "4",
+      "label": ""
+    },
+    {
+      "source": "60",
+      "target": "139",
+      "label": ""
+    },
+    {
+      "source": "80",
+      "target": "146",
+      "label": ""
+    },
+    {
+      "source": "80",
+      "target": "147",
+      "label": ""
+    },
+    {
+      "source": "130",
+      "target": "131",
+      "label": ""
+    },
+    {
+      "source": "89",
+      "target": "90",
+      "label": ""
+    },
+    {
+      "source": "132",
+      "target": "143",
+      "label": "artefacto principal"
+    },
+    {
+      "source": "132",
+      "target": "144",
+      "label": ""
+    },
+    {
+      "source": "132",
+      "target": "145",
       "label": ""
     },
     {
@@ -455,9 +571,34 @@
       "label": ""
     },
     {
+      "source": "66",
+      "target": "140",
+      "label": ""
+    },
+    {
+      "source": "117",
+      "target": "120",
+      "label": "sucede a "
+    },
+    {
+      "source": "66",
+      "target": "141",
+      "label": ""
+    },
+    {
+      "source": "65",
+      "target": "142",
+      "label": "conceptos importantes"
+    },
+    {
       "source": "3",
       "target": "6",
       "label": ""
+    },
+    {
+      "source": "105",
+      "target": "107",
+      "label": "ejemplo"
     },
     {
       "source": "3",
@@ -483,6 +624,11 @@
       "source": "13",
       "target": "3",
       "label": "objetivo"
+    },
+    {
+      "source": "32",
+      "target": "46",
+      "label": "artefacto importante"
     },
     {
       "source": "3",
@@ -597,28 +743,14 @@
     },
     {
       "source": "5",
-      "target": "79",
-      "label": ""
-    },
-    {
-      "source": "5",
       "target": "89",
       "label": "artefacto principal"
     },
-    {
-      "source": "89",
-      "target": "90",
-      "label": ""
-    },
+
     {
       "source": "89",
       "target": "94",
-      "label": "Ejemplo"
-    },
-    {
-      "source": "94",
-      "target": "94",
-      "label": "a traves de\nphising"
+      "label": "Ejemplo de ataque"
     },
     {
       "source": "7",
@@ -634,16 +766,6 @@
       "source": "107",
       "target": "108",
       "label": "en transito"
-    },
-    {
-      "source": "109",
-      "target": "109",
-      "label": "se necesita razon \nlegitima para \nviolar el derecho"
-    },
-    {
-      "source": "108",
-      "target": "108",
-      "label": "autorizacion judicial\npara violar el derecho"
     },
     {
       "source": "7",
@@ -673,22 +795,12 @@
     {
       "source": "7",
       "target": "125",
-      "label": "bancos\nmercado de pagos"
+      "label": "bancos y mercado de pagos"
     },
     {
       "source": "7",
       "target": "128",
       "label": "sector\nfinanciero"
-    },
-    {
-      "source": "117",
-      "target": "128",
-      "label": "relacion"
-    },
-    {
-      "source": "7",
-      "target": "129",
-      "label": ""
     },
     {
       "source": "7",
