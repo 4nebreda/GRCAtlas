@@ -10,7 +10,8 @@ import ReactFlow, {
 } from "reactflow";
 import "reactflow/dist/style.css";
 
-import graphData from "./graph.json";
+import graphDataEs from "./graph.json";
+import graphDataEn from "./graph.en.json";
 
 const NODE_W = 180;
 const NODE_H = 50;
@@ -71,18 +72,20 @@ function visibleNodeIds(rootId, expanded, childrenMap) {
 }
 
 export default function App() {
+  const [lang, setLang] = useState("es");
+  const graphData = lang === "es" ? graphDataEs : graphDataEn;
   const { root, nodes: rawNodes, edges: rawEdges } = graphData;
   const childrenMap = useMemo(() => buildChildrenMap(rawEdges), [rawEdges]);
 
   const [expanded, setExpanded] = useState(new Set([root]));
-  // lastClicked: always the last node clicked, never toggled off
   const [lastClicked, setLastClicked] = useState(null);
 
+  // posCache is seeded once from Spanish data (IDs are stable across languages)
   const posCache = useRef((() => {
     const m = new Map([[root, { x: 0, y: 0 }]]);
-    const grcId = rawNodes.find((n) => n.label.includes("Gobernanza"))?.id;
+    const grcId = graphDataEs.nodes.find((n) => n.label.includes("Gobernanza"))?.id;
     if (grcId) m.set(grcId, { x: -COL_WIDTH, y: 0 });
-    const sgsiId = rawNodes.find((n) => n.label === "SGSI")?.id;
+    const sgsiId = graphDataEs.nodes.find((n) => n.label === "SGSI")?.id;
     if (sgsiId) m.set(sgsiId, { x: -COL_WIDTH, y: ROW_HEIGHT });
     return m;
   })());
@@ -261,8 +264,29 @@ export default function App() {
                 pointerEvents: "none",
               }}
             >
-              Recomendación: expande un solo nodo por nivel de profundidad para mantener la claridad del mapa.
+              {lang === "es"
+                ? "Recomendación: expande un solo nodo por nivel de profundidad para mantener la claridad del mapa."
+                : "Recommendation: expand only one node per depth level to maintain map clarity."}
             </div>
+          </Panel>
+          <Panel position="top-right">
+            <button
+              onClick={() => setLang((l) => (l === "es" ? "en" : "es"))}
+              style={{
+                fontFamily: FONT,
+                fontSize: 11,
+                fontWeight: 600,
+                background: "white",
+                border: "1px solid #cbd5e1",
+                borderRadius: 6,
+                padding: "4px 10px",
+                cursor: "pointer",
+                color: TEXT_COLOR,
+                boxShadow: "0 1px 3px rgba(0,0,0,0.08)",
+              }}
+            >
+              {lang === "es" ? "EN" : "ES"}
+            </button>
           </Panel>
         </ReactFlow>
       </div>
@@ -285,8 +309,8 @@ export default function App() {
             {selectedNode.label}
           </h3>
           <p style={{ fontSize: 12, color: "#64748b", marginBottom: 12, fontFamily: FONT }}>
-            {selectedNode.footnotes.length} nota(s) ·{" "}
-            {(childrenMap.get(selectedNode.id) || []).length} hijo(s)
+            {selectedNode.footnotes.length} {lang === "es" ? "nota(s)" : "note(s)"} ·{" "}
+            {(childrenMap.get(selectedNode.id) || []).length} {lang === "es" ? "hijo(s)" : "child(ren)"}
           </p>
           {selectedNode.footnotes.map((f, i) => {
             // Evaluamos si la nota actual es un objeto estructurado o un string simple
@@ -314,9 +338,9 @@ export default function App() {
               >
                 {type === "image" ? (
                   <img
-                    src={content}
-                    alt="Footnote adjunto"
-                    onClick={() => setLightbox(content)}
+                    src={import.meta.env.BASE_URL + content.replace(/^\//, "")}
+                    alt={lang === "es" ? "Footnote adjunto" : "Attached footnote"}
+                    onClick={() => setLightbox(import.meta.env.BASE_URL + content.replace(/^\//, ""))}
                     style={{
                       width: "100%",
                       height: "auto",
@@ -350,7 +374,7 @@ export default function App() {
         >
           <img
             src={lightbox}
-            alt="Vista ampliada"
+            alt={lang === "es" ? "Vista ampliada" : "Enlarged view"}
             onClick={(e) => e.stopPropagation()}
             style={{
               maxWidth: "90vw",

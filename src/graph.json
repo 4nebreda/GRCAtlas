@@ -180,7 +180,8 @@
       "label": "INCIBE",
       "footnotes": [
         "Se define nivel de riesgo aceptable (1-9)\nSe definen:\n- Activos críticos\n- Amenazas\n- Cruces Activo-Amenaza\n  - Probabilidad\n  - Impacto\n  - Riesgo = Impacto x Probabilidad",
-        { "type": "image", "content": "/aarr.png" }
+        { "type": "image", "content": "/aarr.png" },
+        { "type": "text", "content": "Fuente: INCIBE\nhttps://www.incibe.es/empresas/blog/analisis-riesgos-pasos-sencillo" }
       ]
     },
     {
@@ -512,7 +513,8 @@
       "footnotes": [
         { "type": "text", "content": "Para cualquier empresa" },
         { "type": "text", "content": "Planificar acciones de seguridad" },
-        { "type": "image", "content": "/pds.png" }
+        { "type": "image", "content": "/pds.png" },
+        { "type": "text", "content": "Fuente: INCIBE\nhttps://www.incibe.es/empresas/que-te-interesa/plan-director-seguridad" }
       ]
     }
   ],

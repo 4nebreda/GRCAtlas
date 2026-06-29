@@ -1,0 +1,586 @@
+{
+  "root": "3",
+  "nodes": [
+    {
+      "id": "3",
+      "label": "Information Security Management",
+      "footnotes": [
+        "GRC Core", "Objective: protect information assets"
+      ]
+    },
+    {
+      "id": "4",
+      "label": "Standards",
+      "footnotes": [
+        "Applicable and certifiable norms and requirements"
+      ]
+    },
+    {
+      "id": "5",
+      "label": "Cyber Incident Management",
+      "footnotes": [
+        "Cyber incident: event or set of events affecting the CIA of a system's information"
+      ]
+    },
+    {
+      "id": "6",
+      "label": "Continuity Plans",
+      "footnotes": [
+        "Objective:\n- Provide fast and effective response to incidents and recover normal operations\n- Reduce decision-making",
+        "Helps to:\n- Maintain service level\n- Define recovery period\n- Analysis and improvement"
+      ]
+    },
+    {
+      "id": "7",
+      "label": "Applicable\nLegislation",
+      "footnotes": [
+        "Mandatory laws and regulations"
+      ]
+    },
+    {
+      "id": "35",
+      "label": "HLS (High Level Structure)",
+      "footnotes": [
+        "HLS: The standard follows a High Level Structure\nThis allows integration with other ISO standards and content reuse",
+        "This is the case for ISO 9001 (Quality) and ISO 27001 (Information Security)\nThey can be integrated into a single management system"
+      ]
+    },
+    {
+      "id": "137",
+      "label": "Audits",
+      "footnotes": [
+        "Internal\nExternal (certification) - 3 years\nFollow-up - 1/2 years"
+      ]
+    },
+    {
+      "id": "138",
+      "label": "PDCA Cycle",
+      "footnotes": [
+        "PDCA Loop / Deming Cycle\n- Plan: sections 4-7; scope, roles, risks\n- Do: section 8; Deploy, Implement\n- Check: section 9; measure effectiveness, internal audit\n- Act: section 10; improvements, corrections",
+        { "type": "image", "content": "/pdca.png" }
+      ]
+    },
+    {
+      "id": "8",
+      "label": "ISO 27001\n(certifiable)",
+      "footnotes": [
+        "Versions (1-2-3):\n- Reduction of controls\n- Inclusion of HLS\n- Flexibility\n- Risk-based approach\n- Introduction of the Deming cycle",
+        "Project start:\n- Management commitment\n- Timeline: 1/2 to 2 years (depends on size)\n- Team:\n  - Manager\n  - Sponsor - Supporting executive\n  - Systems manager",
+        "Sections:\n- Introductory:\n  - 0. Introduction\n  - 1. Scope\n  - 2. Normative references\n  - 3. Terms and definitions\n- Mandatory:\n  - 4. Organizational context\n  - 5. Leadership\n  - 6. Planning (Information security risk assessment)\n  - 7. Support (including Resources)\n  - 8. Operation (Information security risk treatment)\n  - 9. Performance evaluation\n  - 10. Improvement"
+      ]
+    },
+    {
+      "id": "9",
+      "label": "ISO 27002\n(best practices)",
+      "footnotes": [
+        "93 controls",
+        "Control groups:\n- Organizational\n- People\n- Physical (tangible assets)\n- Technological\nExtra: Annexes - to adapt from version to version",
+        "Control attributes:\n- Type: preventive (before), detective (during), corrective (after)\n- Dimensions: CIA\n- Cybersecurity concept: mappable to NIST\n- Operational capabilities\n- Security domain"
+      ]
+    },
+    {
+      "id": "10",
+      "label": "ISO 27000",
+      "footnotes": [
+        "27001 (Certifiable standard)\n27002 (controls and best practices)\n27003 (ISMS implementation)\n27004 (security metrics)\n27005 (risk management)"
+      ]
+    },
+    {
+      "id": "11",
+      "label": "ISO 9001\n(Quality)",
+      "footnotes": [
+        "Quality standard", "HLS: High Level Structure"
+      ]
+    },
+    {
+      "id": "13",
+      "label": "Information Security",
+      "footnotes": [
+        "Threats:\n- attack\n- environmental\n- error\n- system failure\nIncreasingly difficult to manage"
+      ]
+    },
+    {
+      "id": "14",
+      "label": "ISMS",
+      "footnotes": [
+        "Definition:\nSet of policies and procedures for resources and activities.",
+        "Mandatory artifact for ISO 27000:\nISO defines it as part of the overall management system",
+        "Objective:\n- Protect assets\n- Risk-based approach",
+        "Difference from Framework (NIST):\n- Auditable\n- Certifiable\n- Formal management rather than best practices\n- Defines how to do things, not just what to do",
+        "Includes...\n- Strategies: Where to start and how to execute a project\n- People and their training\n- Processes\n- Technology"
+      ]
+    },
+    {
+      "id": "16",
+      "label": "Framework",
+      "footnotes": []
+    },
+    {
+      "id": "17",
+      "label": "Governance, Risk, Compliance",
+      "footnotes": [
+        "Idea: align business, security and regulations",
+        "G: align security with business objectives\nR: identify, analyze risks on assets and take measures\nC: compliance with internal policies and external laws"
+      ]
+    },
+    {
+      "id": "19",
+      "label": "NIST Cybersecurity Framework",
+      "footnotes": []
+    },
+    {
+      "id": "20",
+      "label": "ISO 17799",
+      "footnotes": [
+        "This ISO gave rise to ISO 27002"
+      ]
+    },
+    {
+      "id": "21",
+      "label": "British Standard\n7799",
+      "footnotes": [
+        "Based on security best practices and ISMS implementation"
+      ]
+    },
+    {
+      "id": "32",
+      "label": "Risk Assessment",
+      "footnotes": [
+        "Risk/Benefit\nRisk management = Analysis + Evaluation + Treatment",
+        "Requirements impose Controls protect against Threat exploits Vulnerability affects Asset causes Impact",
+        "Define Scope\nIdentify Assets\nIdentify Threats\nIdentify Vulnerabilities - Safeguards\nEvaluate Risk\nTreat Risk",
+        "What needs to be protected?\nConfidentiality\nIntegrity\nAvailability"
+      ]
+    },
+    {
+      "id": "36",
+      "label": "MAGERIT (3 books)",
+      "footnotes": [
+        "Considers dependencies between assets",
+        "Expands asset dimensions:\n- CIA (Confidentiality, Integrity, Availability)\n- Authenticity (is who they claim to be)\n- Traceability (who did what)",
+        "Risk types:\n- Intrinsic to the asset - without security measures\n- Frequency (probability) and degradation (impact) ← generated by threat\n- Residual: after security measures\n- Potential: if adequate measures are not taken\n- Accumulated: company total. Sum of asset risks\n- Compared against the defined threshold",
+        "Emphasis on safeguards:\n- Security measure\n- Can take different forms\n- Incorporated into the asset"
+      ]
+    },
+    {
+      "id": "37",
+      "label": "INCIBE, AEPD, Octave, NIST, ISO 27005",
+      "footnotes": []
+    },
+    {
+      "id": "38",
+      "label": "AEPD",
+      "footnotes": [
+        "Spanish Data Protection Agency",
+        "Responsible for compliance with LOPDGDD and GDPR in Spain"
+      ]
+    },
+    {
+      "id": "39",
+      "label": "INCIBE",
+      "footnotes": [
+        "Define acceptable risk level (1-9)\nDefine:\n- Critical assets\n- Threats\n- Asset-Threat crossings\n  - Probability\n  - Impact\n  - Risk = Impact x Probability",
+        { "type": "image", "content": "/aarr.png" },
+        { "type": "text", "content": "Source: INCIBE\nhttps://www.incibe.es/empresas/blog/analisis-riesgos-pasos-sencillo" }
+      ]
+    },
+    {
+      "id": "42",
+      "label": "Asset\nname, desc, owner, type, location, critical",
+      "footnotes": []
+    },
+    {
+      "id": "43",
+      "label": "Threats\ntype:\nnatural origin,\nsystem failure,\nhuman error\nattack",
+      "footnotes": []
+    },
+    {
+      "id": "44",
+      "label": "Evaluate risk\nimpact x probability\nScale from 1 to 5",
+      "footnotes": []
+    },
+    {
+      "id": "45",
+      "label": "Treat risk\navoid\nreduce\ntransfer - let a third party manage it\naccept",
+      "footnotes": []
+    },
+    {
+      "id": "46",
+      "label": "SOA",
+      "footnotes": [
+        "Statement of Applicability",
+        "Security control selection\nWhich controls will be applied and which won't\nWhether they are already applied"
+      ]
+    },
+    {
+      "id": "52",
+      "label": "Book 1: method",
+      "footnotes": [
+        "MAR 1: Asset characterization. Asset value is defined:\n- Own/Accumulated (other assets depend on it)\n- Quantitative/Qualitative\n- A number for C I A Authentication\nMAR 2: Threat characterization\nMAR 3: Safeguard characterization\nMAR 4: Risk estimation"
+      ]
+    },
+    {
+      "id": "56",
+      "label": "Policy: new concept",
+      "footnotes": [
+        "Security policy: high level\nTopic-based policies: detailed\nRules: instructions"
+      ]
+    },
+    {
+      "id": "59",
+      "label": "ENX: Supply chain information exchange platform",
+      "footnotes": [
+        "Evaluates and guarantees information security in the German automotive sector. Evaluates the ISMS.\nTISAX is an assessment, not an audit — it gives ratings."
+      ]
+    },
+    {
+      "id": "60",
+      "label": "TISAX",
+      "footnotes": [
+        "Assessment and certification standard to demonstrate compliance with information security requirements in the automotive industry",
+        "Need for a specific approach\nLack of trust in third-party audits (ISO27001)",
+        "Usually required by German automotive companies from their suppliers"
+      ]
+    },
+    {
+      "id": "139",
+      "label": "TISAX Assessments",
+      "footnotes": [
+        "Assessment levels:\n- 1: self-assessment\n- 2: remote assessment\n- 3: on-site assessment (3rd party comes to business)",
+        "The assessment establishes maturity levels for the assessed entity\nDefines must / should on evaluated aspects"
+      ]
+    },
+    {
+      "id": "65",
+      "label": "IEC 62443",
+      "footnotes": [
+        "IACS: Industrial Automation and Control Systems",
+        "Focuses on production lines, networks and production and control components",
+        "Industrial security lifecycle phases:\n- Assessment: analysis\n- Implementation: apply measures\n- Maintenance: monitoring and updating"
+      ]
+    },
+    {
+      "id": "142",
+      "label": "Zones and conduits",
+      "footnotes": [
+        "Key concepts in industrial cybersecurity:\n- Zones: Network separation into zones with the same security level\n- Conduits: connections between zones\n\nSecurity Levels (SL) (1-4): How resistant to attacks\nSLT (target): How far we are from the security level per zone.\n\tSLT = Unmitigated risk / tolerable risk"
+      ]
+    },
+    {
+      "id": "66",
+      "label": "ENS\n(law/certification)",
+      "footnotes": [
+        "Definition: Establishes security principles, requirements and measures",
+        "Objectives:\n- Create security conditions\n- Promote continuous security management\n- Better resilience",
+        "Defined security dimensions:\n- Confidentiality\n- Integrity\n- Availability\n- Authenticity\n- Traceability\n- Conservation"
+      ]
+    },
+    {
+      "id": "140",
+      "label": "Security Principles and Measures",
+      "footnotes": [
+        "Security must be present at all times and in all areas\nRisk-based management\nPrevention, detection, response and conservation\nDefense in depth\nContinuous vigilance\nDifferentiation of responsibility",
+        "75 measures:\n- Organizational framework: Global organization (4)\n- Operational framework: System operation (31)\n- Protection measures: Specific assets (40)"
+      ]
+    },
+    {
+      "id": "141",
+      "label": "Defined Roles",
+      "footnotes": [
+        "Information Owner: Establishes information security requirements\nService Owner: Establishes security requirements for services\nSecurity Manager: Maintain security\nSystem Manager: Verifies information system",
+        "Defines a Security Committee\n- Coordinates security at company level\n- Made up of: Security Manager and area representatives"
+      ]
+    },
+    {
+      "id": "79",
+      "label": "Business Continuity Plan (BCP)",
+      "footnotes": [
+        "Priorities:\n- trust\n- people integrity\n- client/supplier relationships\n- not stopping production\n- environment"
+      ]
+    },
+    {
+      "id": "80",
+      "label": "IT Continuity Plan",
+      "footnotes": [
+        "Phases:\n- 0. Scope\n- 1. Organization analysis:\n  - Critical services and their assets\n  - Risks\n  - Impact (BIA, RPO, RTO)\n- 2. Strategies: define needs, responses and strategies\n- 3. Contingency response (adverse situation):\n  - Implement the strategy\n  - Measures depending on service criticality\n  - Contains:\n    - Crisis plan\n    - Maintenance plan\n    - Test plan\n- 4. Test and review plan"
+      ]
+    },
+    {
+      "id": "146",
+      "label": "Key Concepts",
+      "footnotes": [
+        "Critical service: If it fails, production stops\n- Related assets: DB, server, internet, firewall...",
+        "RPO: Data lost\nRTO: Time lost"
+      ]
+    },
+    {
+      "id": "147",
+      "label": "Possible Tools",
+      "footnotes": [
+        "backup\nhardware: onsite, offsite\npersonnel: avoid single point of failure, remote access\nbackup centers:\n- cold, warm, hot: external infrastructure ready to replace services. The hotter, the faster the deployment\nvendors with short-term agreements"
+      ]
+    },
+    {
+      "id": "81",
+      "label": "Disaster Recovery Plan",
+      "footnotes": []
+    },
+    {
+      "id": "84",
+      "label": "Required by ISO 27002",
+      "footnotes": []
+    },
+    {
+      "id": "89",
+      "label": "IRP: Cyber Incident Response Plan",
+      "footnotes": [
+        "Objectives:\n- Replicability\n- Speed:\n  - Detection\n  - Response\n- Compliance",
+        { "type": "image", "content": "/irp-phases.png" },
+        "Required by ISO 27002"
+      ]
+    },
+    {
+      "id": "90",
+      "label": "Playbook",
+      "footnotes": [
+        "Document defining what to do in each IRP phase\nA playbook can be created per threat"
+      ]
+    },
+    {
+      "id": "94",
+      "label": "Ransomware",
+      "footnotes": [
+        "Concept:\n- Encrypt files\n- Move through the network and encrypt other devices\n- Demand ransom\n\nExtra type: RansomwareaaS",
+        { "type": "image", "content": "/ransomware-irp.png" }
+      ]
+    },
+    {
+      "id": "105",
+      "label": "Constitution 1978 (Article 18)",
+      "footnotes": [
+        "right to privacy\nprivacy of communications"
+      ]
+    },
+    {
+      "id": "107",
+      "label": "Corporate Email",
+      "footnotes": [
+        "Evidence nullity due to lack of prior notice\nEmployees must be informed of workplace monitoring"
+      ]
+    },
+    {
+      "id": "108",
+      "label": "Communication Privacy",
+      "footnotes": [
+        "Judicial authorization required to violate the right"
+      ]
+    },
+    {
+      "id": "109",
+      "label": "Right to Privacy",
+      "footnotes": [
+        "Legitimate reason required to violate the right"
+      ]
+    },
+    {
+      "id": "111",
+      "label": "Police Criminal Procedure Act\nThe police trojan",
+      "footnotes": [
+        "A judge may introduce malware into an accused's devices to gather evidence (serious crimes)"
+      ]
+    },
+    {
+      "id": "113",
+      "label": "General Telecommunications Act",
+      "footnotes": [
+        "Legal interception of communications in extreme cases: lives at risk",
+        "Greater rights for users"
+      ]
+    },
+    {
+      "id": "115",
+      "label": "Information Society Services Act",
+      "footnotes": [
+        "Applies to internet services:\n- ecommerce, web\n- spam consent\n- cookie usage",
+        "Example: blocking of La Liga IP addresses. Requires judicial authorization"
+      ]
+    },
+    {
+      "id": "117",
+      "label": "NIS 2 (Network & Information Security)\nEU Directive",
+      "footnotes": [
+        "Impacted companies:\n- essential services\n- service providers",
+        "Law per country",
+        "Improvements:\n- Broader scope: inclusion of sectors and new technologies (AI)\n- Essential entities (already existed)\n- Important entities (newly added)\n- Supply chain consideration\n- Incident notification\n- Supervision and sanctions\n- Management board responsibility\n- Training\n- Personal sanctions / Temporary disqualification"
+      ]
+    },
+    {
+      "id": "120",
+      "label": "NIS 1",
+      "footnotes": []
+    },
+    {
+      "id": "122",
+      "label": "PCI-DSS EU Directive",
+      "footnotes": [
+        "Impacts:\n- financial entities\n- companies storing card data",
+        "Main concepts:\n- secure network\n- protect data\n- vulnerability management\n- access control measures"
+      ]
+    },
+    {
+      "id": "125",
+      "label": "PSD2",
+      "footnotes": [
+        "Objectives:\n- protect data\n- customer security\n- unify providers\n- include fintechs",
+        "Measures:\n- SCA (Strong Customer Authentication)\n- MFA\n- verifications"
+      ]
+    },
+    {
+      "id": "128",
+      "label": "DORA",
+      "footnotes": [
+        "Security and resilience of financial services"
+      ]
+    },
+    {
+      "id": "129",
+      "label": "elDAS",
+      "footnotes": [
+        "Unified and secure digital ID in the EU"
+      ]
+    },
+    {
+      "id": "130",
+      "label": "CRA (Cyber Resilience Act)",
+      "footnotes": [
+        "Objectives:\n- Better market security\n- CE marking\n- Vulnerability management\n- Transparency with customers and suppliers\n- Reporting",
+        "Mandatory from 11 December 2027"
+      ]
+    },
+    {
+      "id": "131",
+      "label": "Artifacts",
+      "footnotes": [
+        "Risk analysis",
+        "SBOM (Software Bill of Materials) and VEX (Vulnerability Exploitability eXchange)",
+        "Vulnerability management plan",
+        "Technical conformity documentation",
+        "Security update policy"
+      ]
+    },
+    {
+      "id": "132",
+      "label": "GDPR\n(EU regulation/law)",
+      "footnotes": [
+        "Applies to manual and automated data processing; each processing activity has its own controller",
+        "Consent must be given through a clear positive action (not the absence of a negative). Example: an unchecked checkbox",
+        "Does not apply to deceased persons\nDoes not apply to personal or domestic documents (e.g. personal agenda)\nKey role: DPO - Data Protection Officer\n- Legal knowledge\n- No conflict of interests\n- Responsible for data protection compliance"
+      ]
+    },
+    {
+      "id": "143",
+      "label": "DPIA",
+      "footnotes": [
+        "Main GDPR artifact: Data Protection Impact Assessment",
+        "Must include:\n- Description of the processing\n- Assessment of necessity and proportionality\n- Assessment of risks to individuals' rights and freedoms\n- Measures to mitigate risks"
+      ]
+    },
+    {
+      "id": "144",
+      "label": "Personal data",
+      "footnotes": [
+        "Personal data categories:\n- personal\n- biometric\n- genetic\n- health-related"
+      ]
+    },
+    {
+      "id": "145",
+      "label": "Anonymization and pseudonymization",
+      "footnotes": [
+        "Pseudonymization: data not attributable to a person without additional information.\nEx: two tables: id, age; id, name. Only the first table is pseudonymized.",
+        "Anonymization: one table: age, job. Irreversible, cannot be attributed to a person"
+      ]
+    },
+    {
+      "id": "135",
+      "label": "Basque and Catalan",
+      "footnotes": [
+        "Data protection laws of each autonomous community\nApply to companies operating in that community"
+      ]
+    },
+    {
+      "id": "136",
+      "label": "Extra: Security Master Plan",
+      "footnotes": [
+        { "type": "text", "content": "For any company" },
+        { "type": "text", "content": "Plan security actions" },
+        { "type": "image", "content": "/pds.png" },
+        { "type": "text", "content": "Source: INCIBE\nhttps://www.incibe.es/empresas/que-te-interesa/plan-director-seguridad" }
+      ]
+    }
+  ],
+  "edges": [
+    { "source": "3", "target": "4", "label": "" },
+    { "source": "60", "target": "139", "label": "" },
+    { "source": "80", "target": "146", "label": "" },
+    { "source": "80", "target": "147", "label": "" },
+    { "source": "130", "target": "131", "label": "" },
+    { "source": "89", "target": "90", "label": "" },
+    { "source": "132", "target": "143", "label": "main artifact" },
+    { "source": "132", "target": "144", "label": "" },
+    { "source": "132", "target": "145", "label": "" },
+    { "source": "8", "target": "137", "label": "" },
+    { "source": "8", "target": "138", "label": "is based on" },
+    { "source": "32", "target": "36", "label": "Spanish public administrations" },
+    { "source": "3", "target": "7", "label": "" },
+    { "source": "4", "target": "136", "label": "" },
+    { "source": "66", "target": "140", "label": "" },
+    { "source": "117", "target": "120", "label": "succeeds" },
+    { "source": "66", "target": "141", "label": "" },
+    { "source": "65", "target": "142", "label": "key concepts" },
+    { "source": "3", "target": "6", "label": "" },
+    { "source": "105", "target": "107", "label": "example" },
+    { "source": "3", "target": "5", "label": "" },
+    { "source": "4", "target": "10", "label": "" },
+    { "source": "10", "target": "9", "label": "" },
+    { "source": "10", "target": "8", "label": "" },
+    { "source": "13", "target": "3", "label": "objective" },
+    { "source": "32", "target": "46", "label": "important artifact" },
+    { "source": "3", "target": "14", "label": "main\nartifact" },
+    { "source": "10", "target": "21", "label": "comes from" },
+    { "source": "3", "target": "17", "label": "comprehensive approach" },
+    { "source": "16", "target": "19", "label": "example" },
+    { "source": "8", "target": "35", "label": "follows" },
+    { "source": "35", "target": "11", "label": "follows" },
+    { "source": "21", "target": "20", "label": "ISO/IEC adopted it as" },
+    { "source": "10", "target": "32", "label": "requires" },
+    { "source": "32", "target": "37", "label": "Other options" },
+    { "source": "32", "target": "38", "label": "risks\nwith data" },
+    { "source": "32", "target": "39", "label": "Small companies" },
+    { "source": "45", "target": "46", "label": "artifact" },
+    { "source": "36", "target": "52", "label": "" },
+    { "source": "9", "target": "56", "label": "introduces" },
+    { "source": "4", "target": "60", "label": "" },
+    { "source": "60", "target": "59", "label": "includes" },
+    { "source": "4", "target": "66", "label": "public sector and providers" },
+    { "source": "4", "target": "65", "label": "Security\nfor industry" },
+    { "source": "6", "target": "79", "label": "Artifacts" },
+    { "source": "79", "target": "80", "label": "contains" },
+    { "source": "80", "target": "81", "label": "contains" },
+    { "source": "80", "target": "84", "label": "" },
+    { "source": "5", "target": "89", "label": "main artifact" },
+    { "source": "89", "target": "94", "label": "Attack example" },
+    { "source": "7", "target": "105", "label": "" },
+    { "source": "107", "target": "109", "label": "in mailbox" },
+    { "source": "107", "target": "108", "label": "in transit" },
+    { "source": "7", "target": "111", "label": "" },
+    { "source": "7", "target": "113", "label": "" },
+    { "source": "7", "target": "115", "label": "" },
+    { "source": "7", "target": "117", "label": "essential services" },
+    { "source": "7", "target": "122", "label": "credit\ncards" },
+    { "source": "7", "target": "125", "label": "banks and payment market" },
+    { "source": "7", "target": "128", "label": "financial\nsector" },
+    { "source": "7", "target": "130", "label": "security in services\nsold in the market" },
+    { "source": "7", "target": "132", "label": "data\nprotection" },
+    { "source": "38", "target": "135", "label": "secondary" }
+  ]
+}
