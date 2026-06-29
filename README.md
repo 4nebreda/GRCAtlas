@@ -1,7 +1,7 @@
 # GRCAtlas
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/4nebreda/GRCAtlas/main/src/assets/logo.png" alt="GRCAtlas logo" width="600" />
+  <img src="https://raw.githubusercontent.com/4nebreda/GRCAtlas/main/src/assets/logo.png" alt="GRCAtlas logo" width="60%" />
 </p>
 
 <p align="center">
