@@ -34,13 +34,13 @@ El proyecto toma como punto de partida un esquema diseñado en Lucidchart y lo t
 
 ## Características
 
-- 🗺️ **Mapa visual interactivo** de marcos normativos españoles construido con React Flow
-- 🔗 **Relaciones entre normativas** — visualiza cómo se conectan RGPD, ENS, LOPD-GDD, LMDSI, etc.
-- 📊 **Controles cruzados** — identifica requisitos que aparecen en múltiples marcos regulatorios
-- 🎯 **Navegación por áreas** — filtra por gobernanza, riesgos operativos, ciberseguridad, privacidad...
-- 🌐 **Disponible en español e inglés**
-- 🔧 **Extensible y modular** — añade nuevos marcos y relaciones de forma sencilla
-- 🇪🇸 **Enfoque en el ecosistema normativo español**
+- **Mapa visual interactivo** de marcos normativos españoles construido con React Flow
+- **Relaciones entre normativas** — visualiza cómo se conectan RGPD, ENS, LOPD-GDD, LMDSI, etc.
+- **Controles cruzados** — identifica requisitos que aparecen en múltiples marcos regulatorios
+- **Navegación por áreas** — filtra por gobernanza, riesgos operativos, ciberseguridad, privacidad...
+- **Disponible en español e inglés**
+- **Extensible y modular** — añade nuevos marcos y relaciones de forma sencilla
+- **Enfoque en el ecosistema normativo español**
 
 ## Artefactos principales
 
