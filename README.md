@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <a href="https://4nebreda.github.io/GRCAtlas/"><img src="https://img.shields.io/badge/🌐_Ver_en_vivo-4nebreda.github.io/GRCAtlas-0ea5e9?style=for-the-badge" alt="Demo en vivo" /></a>
+</p>
+
+<p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-D4A84B?style=flat-square" alt="License: MIT" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /></a>
   <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=20232A" alt="React" /></a>
@@ -34,17 +38,16 @@ El proyecto toma como punto de partida un esquema diseñado en Lucidchart y lo t
 - 🔗 **Relaciones entre normativas** — visualiza cómo se conectan RGPD, ENS, LOPD-GDD, LMDSI, etc.
 - 📊 **Controles cruzados** — identifica requisitos que aparecen en múltiples marcos regulatorios
 - 🎯 **Navegación por áreas** — filtra por gobernanza, riesgos operativos, ciberseguridad, privacidad...
+- 🌐 **Disponible en español e inglés**
 - 🔧 **Extensible y modular** — añade nuevos marcos y relaciones de forma sencilla
 - 🇪🇸 **Enfoque en el ecosistema normativo español**
-
-
-La aplicación estará disponible en `http://localhost:5173`.
 
 ## Artefactos principales
 
 | Archivo | Descripción |
 |---|---|
-| `src/graph.json` | Definición del grafo (nodos, aristas, notas) |
+| `src/graph.json` | Definición del grafo en español (nodos, aristas, notas) |
+| `src/graph.en.json` | Definición del grafo en inglés |
 | `utils/schema.csv` | Exportación original desde Lucidchart |
 | `utils/transform.py` | Script de transformación CSV → graph.json |
 
@@ -72,9 +75,20 @@ npm install
 npm run dev
 ```
 
-## Changelog
+La aplicación estará disponible en `http://localhost:5173`.
 
-Consulta [CHANGELOG.md](CHANGELOG.md) para ver el historial de cambios.
+## Contribuir
+
+Las contribuciones son bienvenidas. Para proponer cambios:
+
+1. Haz un fork del repositorio
+2. Crea una rama para tu cambio (`git checkout -b feature/nueva-normativa`)
+3. Realiza tus cambios y haz commit (`git commit -m 'Añade NIS2 con nuevos controles'`)
+4. Abre una Pull Request describiendo qué has añadido y por qué
+
+Para añadir o modificar nodos y relaciones, edita directamente `src/graph.json` siguiendo la estructura existente. No se requieren conocimientos de React.
+
+Si encuentras un error o tienes una sugerencia, abre un [issue](https://github.com/4nebreda/GRCAtlas/issues).
 
 ## Licencia
 
