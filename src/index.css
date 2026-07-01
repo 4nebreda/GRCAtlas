@@ -52,6 +52,7 @@
 
 body {
   margin: 0;
+  background: #0f172a;
 }
 
 #root {
@@ -59,6 +60,7 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+
 
 h1,
 h2 {

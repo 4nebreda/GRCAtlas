@@ -13,8 +13,8 @@ import "reactflow/dist/style.css";
 import graphDataEs from "./graph.json";
 import graphDataEn from "./graph.en.json";
 
-const NODE_W = 180;
-const NODE_H = 50;
+const NODE_W = 280;
+const NODE_H = 70;
 const COL_WIDTH = 480;
 const ROW_HEIGHT = 120;
 const FONT = "'JetBrains Mono', monospace";
@@ -28,7 +28,7 @@ function MindMapNode({ data }) {
         padding: "8px 10px",
         border: data.border,
         background: data.background,
-        fontSize: 11,
+        fontSize: 15,
         width: NODE_W,
         textAlign: "center",
         fontWeight: data.fontWeight,
@@ -232,7 +232,7 @@ export default function App() {
   const [lightbox, setLightbox] = useState(null);
 
   return (
-    <div style={{ width: "100vw", height: "100vh", display: "flex", overflow: "hidden" }}>
+    <div style={{ width: "100vw", height: "100vh", display: "flex", overflow: "hidden", background: "#0f172a" }}>
       <div style={{ flex: 1, minWidth: 0 }}>
         <ReactFlow
           nodes={flowNodes}
@@ -248,7 +248,7 @@ export default function App() {
           minZoom={0.1}
           maxZoom={2}
         >
-          <Background />
+          <Background color="#e2e8f0" />
           <Controls />
           <Panel position="bottom-center">
             <div
@@ -257,7 +257,7 @@ export default function App() {
                 border: "1px solid #fde68a",
                 borderRadius: 8,
                 padding: "6px 14px",
-                fontSize: 11,
+                fontSize: 13,
                 fontFamily: FONT,
                 color: "#92400e",
                 marginBottom: 8,
@@ -294,7 +294,7 @@ export default function App() {
       {showPanel && (
         <aside
           style={{
-            width: 340,
+            width: "clamp(300px, 28vw, 480px)",
             flexShrink: 0,
             borderLeft: "1px solid #e2e8f0",
             padding: 20,
@@ -305,10 +305,10 @@ export default function App() {
             color: TEXT_COLOR,
           }}
         >
-          <h3 style={{ marginTop: 0, fontFamily: FONT, color: TEXT_COLOR }}>
+          <h3 style={{ marginTop: 0, fontSize: 22, fontFamily: FONT, color: TEXT_COLOR }}>
             {selectedNode.label}
           </h3>
-          <p style={{ fontSize: 12, color: "#64748b", marginBottom: 12, fontFamily: FONT }}>
+          <p style={{ fontSize: 13, color: "#64748b", marginBottom: 14, fontFamily: FONT }}>
             {selectedNode.footnotes.length} {lang === "es" ? "nota(s)" : "note(s)"} ·{" "}
             {(childrenMap.get(selectedNode.id) || []).length} {lang === "es" ? "hijo(s)" : "child(ren)"}
           </p>
@@ -323,11 +323,11 @@ export default function App() {
                 key={i}
                 style={{
                   background: "white",
-                  padding: type === "image" ? "8px" : "12px", // Menos padding si es imagen para que luzca mejor
+                  padding: type === "image" ? "8px" : "12px",
                   marginBottom: 10,
                   borderRadius: 8,
                   border: "1px solid #e2e8f0",
-                  fontSize: 13,
+                  fontSize: 16,
                   whiteSpace: "pre-wrap",
                   wordBreak: "break-word",
                   overflowWrap: "break-word",
