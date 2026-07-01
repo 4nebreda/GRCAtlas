@@ -161,7 +161,7 @@ export default function App() {
         type: "mindmap",
         data: {
           label: `${n.label.replace(/\n/g, " ")}${
-            hasChildren ? (isExpanded ? "  ▾" : "  ▸") : ""
+            hasChildren && !isRoot ? (isExpanded ? "  ▾" : "  ▸") : ""
           }`,
           background,
           border,
@@ -218,18 +218,28 @@ export default function App() {
 
   const onNodeClick = useCallback((_evt, node) => {
     setLastClicked(node.id);
+    if (node.id === root) return;
     setExpanded((prev) => {
       const next = new Set(prev);
       if (next.has(node.id)) next.delete(node.id);
       else next.add(node.id);
       return next;
     });
-  }, []);
+  }, [root]);
 
   const selectedNode = rawNodes.find((n) => n.id === lastClicked);
   const showPanel = selectedNode && selectedNode.footnotes?.length > 0;
 
   const [lightbox, setLightbox] = useState(null);
+
+  const rfInstance = useRef(null);
+  const prevShowPanel = useRef(false);
+  useEffect(() => {
+    if (showPanel && !prevShowPanel.current && rfInstance.current) {
+      setTimeout(() => rfInstance.current.fitView({ padding: 0.15, duration: 400 }), 80);
+    }
+    prevShowPanel.current = !!showPanel;
+  }, [showPanel]);
 
   return (
     <div style={{ width: "100vw", height: "100vh", display: "flex", overflow: "hidden", background: "#0f172a" }}>
@@ -241,6 +251,7 @@ export default function App() {
           onEdgesChange={onEdgesChange}
           onNodeClick={onNodeClick}
           nodeTypes={nodeTypes}
+          onInit={(instance) => { rfInstance.current = instance; }}
           nodesDraggable={false}
           nodesConnectable={false}
           elementsSelectable={false}
@@ -257,11 +268,12 @@ export default function App() {
                 border: "1px solid #fde68a",
                 borderRadius: 8,
                 padding: "6px 14px",
-                fontSize: 13,
+                fontSize: 11,
                 fontFamily: FONT,
                 color: "#92400e",
                 marginBottom: 8,
                 pointerEvents: "none",
+                whiteSpace: "nowrap",
               }}
             >
               {lang === "es"
@@ -294,10 +306,10 @@ export default function App() {
       {showPanel && (
         <aside
           style={{
-            width: "clamp(300px, 28vw, 480px)",
+            width: "clamp(240px, 22vw, 384px)",
             flexShrink: 0,
             borderLeft: "1px solid #e2e8f0",
-            padding: 20,
+            padding: 16,
             overflowY: "auto",
             overflowX: "hidden",
             background: "#f8fafc",
@@ -305,10 +317,10 @@ export default function App() {
             color: TEXT_COLOR,
           }}
         >
-          <h3 style={{ marginTop: 0, fontSize: 22, fontFamily: FONT, color: TEXT_COLOR }}>
+          <h3 style={{ marginTop: 0, fontSize: 18, fontFamily: FONT, color: TEXT_COLOR }}>
             {selectedNode.label}
           </h3>
-          <p style={{ fontSize: 13, color: "#64748b", marginBottom: 14, fontFamily: FONT }}>
+          <p style={{ fontSize: 11, color: "#64748b", marginBottom: 11, fontFamily: FONT }}>
             {selectedNode.footnotes.length} {lang === "es" ? "nota(s)" : "note(s)"} ·{" "}
             {(childrenMap.get(selectedNode.id) || []).length} {lang === "es" ? "hijo(s)" : "child(ren)"}
           </p>
@@ -323,11 +335,11 @@ export default function App() {
                 key={i}
                 style={{
                   background: "white",
-                  padding: type === "image" ? "8px" : "12px",
-                  marginBottom: 10,
+                  padding: type === "image" ? "6px" : "10px",
+                  marginBottom: 8,
                   borderRadius: 8,
                   border: "1px solid #e2e8f0",
-                  fontSize: 16,
+                  fontSize: 13,
                   whiteSpace: "pre-wrap",
                   wordBreak: "break-word",
                   overflowWrap: "break-word",
